@@ -1,0 +1,30 @@
+name: Dependency Scan on Push
+on:
+  push:
+    branches:
+      - main
+jobs:
+  dependency-scan:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+      - name: Set up environment
+        uses: actions/setup-node@v3 # Thay bằng môi trường phù hợp (Python, Java, v.v.)
+        with:
+          node-version: '16'
+      - name: Install dependencies
+        run: yarn install # Thay bằng lệnh cài dependency của bạn (pip install, mvn install, v.v.)
+      - name: Run dependency vulnerability scan
+        run: yarn audit --json | tee audit-report.json # Thay bằng công cụ quét phù hợp (npm audit, pip-audit, v.v.)
+      - name: Upload scan results
+        uses: actions/upload-artifact@v3
+        with:
+          name: audit-report
+          path: audit-report.json
+      - name: Fail if vulnerabilities are found
+        run: |
+          if [ $(jq '.metadata.vulnerabilities.total' audit-report.json) -gt 0 ]; then
+            echo "Vulnerabilities found! Check the audit report."
+            exit 1
+          fi
