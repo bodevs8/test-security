@@ -1,0 +1,174 @@
+.transaction-history-table {
+  table {
+    thead {
+      th {
+        &:nth-child(4) {
+          padding-left: 40px;
+        }
+        &:nth-child(3) {
+          padding-right: 1.1vw;
+          max-width: 180px;
+        }
+      }
+    }
+    tr {
+      td {
+        &:first-child {
+          width: 124px;
+        }
+
+        &:nth-child(3) {
+          padding-right: 1.1vw;
+          max-width: 180px;
+        }
+
+        &:nth-child(4) {
+          padding-left: 40px;
+          max-width: 200px;
+          width: 200px;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1300px) {
+  .transaction-history-table {
+    table {
+      thead {
+        th {
+          &:nth-child(4) {
+            padding-left: 16px;
+            width: 150px;
+          }
+        }
+      }
+      tr {
+        td {
+          &:nth-child(4) {
+            padding-left: 16px;
+            max-width: 180px;
+            width: 180px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .transaction-history-table {
+    table {
+      thead {
+        th {
+          &:nth-child(2) {
+            padding-right: 16px;
+            min-width: 110px !important;
+          }
+
+          &:nth-child(4) {
+            padding-left: 16px;
+            width: 135px;
+          }
+
+          &:nth-child(6) {
+            padding-left: 16px;
+            padding-right: 16px;
+          }
+        }
+      }
+      tr {
+        td {
+          white-space: nowrap !important;
+          width: fit-content !important;
+
+          &:nth-child(2) {
+            padding-right: 16px;
+            min-width: 110px !important;
+          }
+
+          &:nth-child(4) {
+            min-width: 160px;
+          }
+
+          &:nth-child(6) {
+            padding-left: 16px;
+            padding-right: 16px;
+          }
+        }
+      }
+    }
+  }
+}
+
+.transaction-history {
+  .fixed-footer {
+    box-shadow:
+      0px 4px 47.7px 0px #0719720d,
+      0px 2px 12px 0px #07197212;
+  }
+
+  .status-col {
+    &.cancel,
+    &.pending,
+    &.cc_pending,
+    &.waiting,
+    &.cc_processing,
+    &.approved,
+    &.phone_card_processing,
+    &.smart_pay_processing,
+    &.processing,
+    &.momo_processing,
+    &.draft {
+      color: var(--color-blue-500);
+    }
+
+    &.cancel,
+    &.cancelled,
+    &.delete {
+      color: var(--color-error);
+    }
+
+    &.refund,
+    &.commission {
+      color: var(--color-money);
+    }
+
+    &.finished,
+    &.success {
+      color: var(--color-green-500);
+    }
+  }
+
+  .bg-deposit-card {
+    background: linear-gradient(
+      90deg,
+      #bbf7d0 0%,
+      rgba(187, 247, 208, 0.29) 100%
+    );
+  }
+
+  .bg-withdraw-card {
+    background: linear-gradient(
+      270deg,
+      rgba(240, 227, 130, 0.42) 0%,
+      #fef08a 100%
+    );
+  }
+
+  .bg-promotion-card {
+    background: linear-gradient(
+      270deg,
+      rgba(255, 197, 7, 0.87) 0%,
+      #fef08a 100%
+    );
+  }
+
+  .bg-cancel-promotion-card {
+    background: radial-gradient(
+      57.65% 95.93% at 52.99% 113.46%,
+      rgba(134, 178, 188, 0.87) 0%,
+      rgba(51, 83, 143, 0) 100%
+    );
+  }
+}

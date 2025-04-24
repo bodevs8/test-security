@@ -1,0 +1,52 @@
+@use '@/styles/abstracts/_breakpoint.scss' as breakpoint;
+
+@media screen and (max-width: 1919.5px) {
+  .bet-history-table {
+    table {
+      thead {
+        th {
+          &:nth-child(3),
+          &:nth-child(4),
+          &:nth-child(5),
+          &:nth-child(6) {
+            min-width: 100px;
+          }
+        }
+      }
+      tbody {
+        tr {
+          td {
+            &:nth-child(3),
+            &:nth-child(4),
+            &:nth-child(5),
+            &:nth-child(6) {
+              min-width: 100px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1350px) {
+  .bet-history-table {
+    table {
+      thead {
+        th {
+          &:nth-child(2) {
+            max-width: 121px;
+          }
+        }
+      }
+
+      tr {
+        td {
+          &:nth-child(2) {
+            max-width: 121px;
+          }
+        }
+      }
+    }
+  }
+}

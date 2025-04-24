@@ -1,0 +1,16 @@
+config:
+  target: http://localhost:3000 # Địa chỉ của server bạn muốn kiểm tra
+  phases:
+    - duration: 60 # Thời gian thử nghiệm (giây)
+      arrivalCount: 20000 # Tổng số request là 20,000
+      name: Ultra high load test
+  http:
+    timeout: 30 # Tăng timeout lên 30 giây
+    pool: 20000 # Tăng số kết nối đồng thời lên 20000 cho 20k CCU
+    keepAlive: false # Tắt keep-alive như ab
+
+scenarios:
+  - name: Homepage load test
+    flow:
+      - get:
+          url: / # URL của trang bạn muốn gửi yêu cầu

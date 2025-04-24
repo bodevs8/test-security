@@ -1,0 +1,59 @@
+:root {
+  --var-time-toast: 3; //seconds
+}
+
+@keyframes reduceTime {
+  to {
+    transform: scaleX(0);
+  }
+}
+.toaster {
+  .toast[data-type='success'] {
+    background-color: var(--color-green-100) !important;
+    color: var(--color-toast-success) !important;
+    .toast-content {
+      font-size: 12px !important;
+      margin-left: 4px;
+      font-weight: 700 !important;
+      &::after {
+        background: var(--color-green-400);
+      }
+    }
+  }
+  .toast[data-type='error'] {
+    background-color: var(--color-red-100) !important;
+    color: var(--color-toast-error) !important;
+    .toast-content {
+      font-size: 12px !important;
+      margin-left: 4px;
+      font-weight: 700 !important;
+      &::after {
+        background: var(--color-error) !important;
+      }
+    }
+  }
+
+  .toast-content {
+    &::before {
+      content: '';
+      position: absolute;
+      height: 2px;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      z-index: 1;
+    }
+
+    &::after {
+      content: '';
+      position: absolute;
+      height: 2px;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      z-index: 2;
+      transform-origin: left center;
+      animation: reduceTime calc(var(--var-time-toast) * 1s) linear forwards;
+    }
+  }
+}

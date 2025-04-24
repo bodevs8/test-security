@@ -1,0 +1,244 @@
+@media screen and (min-width: 768px) {
+  .deposit-form-container {
+    border-radius: 8px;
+    border: 1px solid var(--color-primary-light-200);
+  }
+}
+
+.deposit-menu-item-mb {
+  &.disabled {
+    background: url('/images/deposit/bg-maintain.webp') !important;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+  }
+}
+
+.mobile-side-deposit {
+  .deposit-form-btn {
+    position: fixed;
+    bottom: 16px;
+    z-index: 52;
+    width: calc(100vw - 32px);
+    left: 16px;
+    max-width: unset;
+    z-index: 53;
+    margin-top: 0;
+  }
+}
+
+.fixed-deposit-footer {
+  box-shadow: 0px -4px 15px 0px #04070f40;
+  z-index: 52;
+}
+
+.deposit-form-border {
+  position: relative;
+  border-radius: 8px;
+  overflow: hidden;
+  background-color: #0c182e;
+  padding: 1px;
+  z-index: 2;
+
+  &::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    background-image: conic-gradient(
+      from 244.56deg at 50% 50%,
+      rgba(108, 108, 108, 0) -36.07deg,
+      rgba(108, 108, 108, 0) 20.81deg,
+      rgba(108, 108, 108, 0.1) 57.11deg,
+      rgba(208, 208, 208, 0.5) 151.45deg,
+      rgba(108, 108, 108, 0.1) 254.83deg,
+      rgba(108, 108, 108, 0) 323.93deg,
+      rgba(108, 108, 108, 0) 380.81deg
+    );
+  }
+}
+
+.base-side-modal {
+  .deposit-form-border {
+    z-index: 53;
+  }
+}
+
+.ewallet-tab {
+  .tab-disabled {
+    background: #192439;
+    position: relative;
+    box-shadow: none;
+    color: #8b98b2;
+
+    &::after {
+      content: 'BẢO TRÌ';
+      position: absolute;
+      border-radius: 8px;
+      top: 4px;
+      right: 16px;
+      font-size: 10px;
+      font-weight: 700;
+      padding: 0 6px;
+      height: 14px;
+      color: #8b98b2;
+      background: #475670;
+    }
+  }
+}
+
+.momo,
+.zalopay,
+.viettel {
+  color: #fff;
+  border: 2px solid transparent;
+  background: var(--color-disabled);
+  line-height: 22px;
+}
+
+.momo {
+  border-radius: 8px 0 0 0;
+
+  &.active {
+    outline: none;
+    background: var(--color-red-850);
+    border: 2px solid var(--color-pink-300) !important;
+    backdrop-filter: blur(15px);
+    -webkit-backdrop-filter: blur(15px);
+  }
+
+  :not(.active):not(.disabled) {
+    &:hover {
+      border: 2px solid var(--color-pink-300) !important;
+    }
+  }
+}
+
+.zalopay {
+  border-radius: 0;
+
+  &.active {
+    outline: none;
+    background: var(--color-blue-550);
+    border: 2px solid var(--color-blue-650) !important;
+    backdrop-filter: blur(15px);
+    -webkit-backdrop-filter: blur(15px);
+  }
+
+  :not(.active):not(.disabled) {
+    &:hover {
+      border: 2px solid var(--color-blue-650) !important;
+    }
+  }
+}
+
+.viettel {
+  border-radius: 0 8px 0 0;
+
+  &.active {
+    outline: none;
+    background: var(--color-red-650);
+    border: 2px solid var(--color-red-750) !important;
+    backdrop-filter: blur(15px);
+    -webkit-backdrop-filter: blur(15px);
+  }
+
+  :not(.active):not(.disabled) {
+    &:hover {
+      border: 2px solid var(--color-red-750) !important;
+    }
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .momo {
+    border-radius: 0;
+
+    &.active {
+      outline: none;
+      border: 0px;
+      border-bottom: 1.5px solid #ff48ad;
+    }
+  }
+
+  .zalopay {
+    border-radius: 0;
+
+    &.active {
+      outline: none;
+      border: 0px;
+      border-bottom: 1.5px solid #ff274e;
+    }
+  }
+
+  .viettel {
+    border-radius: 0;
+
+    &.active {
+      outline: none;
+      border: 0px;
+      border-bottom: 1.5px solid #ff48ad;
+    }
+  }
+}
+
+.button-tab {
+  background: #122039;
+  border-radius: 4px;
+  border: 1px solid transparent;
+  box-shadow: 0px 6px 12.2px 0px #3f3f3f40 inset;
+
+  &.active {
+    background:
+      linear-gradient(
+        92.7deg,
+        rgba(32, 34, 59, 0.4) 0%,
+        rgba(34, 37, 77, 0.4) 100.8%
+      ),
+      linear-gradient(
+        90deg,
+        rgba(173, 40, 120, 0) -77.6%,
+        #ad2878 50.97%,
+        rgba(173, 40, 120, 0) 187.5%
+      ),
+      radial-gradient(
+        40.63% 97.5% at 50% 35%,
+        #fb0093 0%,
+        rgba(176, 10, 107, 0) 100%
+      );
+    border: 1px solid #d80c83;
+  }
+}
+
+.bg-gradient-orange-white {
+  background:
+    radial-gradient(
+      159.21% 108.08% at -4.52% -13.94%,
+      rgba(255, 144, 0, 0.15) 0%,
+      rgba(255, 255, 255, 0) 100%
+    ),
+    linear-gradient(0deg, #ffffff, #ffffff);
+}
+
+.transaction-note-top {
+  background: url('/images/box-note/top-transaction-note.webp') no-repeat left
+    top;
+  border-radius: 8px;
+  background-size: cover;
+}
+
+.transaction-note {
+  background: url('/images/box-note/transaction-note.svg') no-repeat left top;
+  border-radius: 8px;
+  background-size: cover;
+}
+
+.transaction-note-deposit {
+  background: url('/images/box-note/transaction-note.svg') no-repeat left top;
+  border-radius: 8px;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}

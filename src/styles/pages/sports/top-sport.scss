@@ -1,0 +1,11 @@
+.bg-item-sport-gradient {
+  background: radial-gradient(
+    889.61% 183.5% at 0% 100%,
+    rgba(13, 62, 37, 0.8) 0%,
+    rgba(154, 102, 67, 0.8) 100%
+  );
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px); /* Safari support */
+  color: white;
+  width: 100%;
+}

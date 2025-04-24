@@ -1,0 +1,56 @@
+name: Inline Message Workflow
+
+on:
+  push:
+    branches: [develop]
+
+jobs:
+  deploy:
+    concurrency:
+      group: Deploy-${{ github.ref }}
+      cancel-in-progress: true
+    name: Deploy
+    runs-on: self-hosted
+
+    steps:
+      - name: Push Message to Telegram
+        run: |
+          curl --location 'https://api.telegram.org/bot${{ secrets.TED_NEVEL_CICD_BOT }}/sendMessage' \
+          --header 'Content-Type: application/x-www-form-urlencoded' \
+          --data-urlencode 'chat_id=-4639436604' \
+          --data-urlencode 'text=🚀 [T08LEGA] Deploying...'
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Create .env file from Secrets
+        run: echo "${{ secrets.ENV_FILE }}" > .env
+
+      - name: Install dependencies
+        run: yarn install --frozen-lockfile
+
+      - name: Build Next.js Project
+        run: yarn build
+
+      - name: Cleanup before packaging
+        run: rm -rf .next/cache node_modules/.cache deploy_package.zip
+
+      - name: Create zip archive
+        run: zip -r deploy_package.zip .next public .env
+
+      - name: Upload build to server via SCP
+        run: scp deploy_package.zip nevel202:/usr/share/nginx/s8/t08lega-web/
+
+      - name: Deploy on server via SSH
+        run: ssh nevel202 "cd /usr/share/nginx/s8/t08lega-web && sh deploy.sh"
+
+      - name: Push Message to Telegram
+        run: |
+          curl --location 'https://api.telegram.org/bot${{ secrets.TED_NEVEL_CICD_BOT }}/sendMessage' \
+          --header 'Content-Type: application/x-www-form-urlencoded' \
+          --data-urlencode 'chat_id=-4639436604' \
+          --data-urlencode 'text=✅ [T08LEGA] Deployment completed successfully.'
+
+      - name: Cleanup Local Files
+        run: |
+          rm -f deploy_package.zip
+          rm -rf .next/cache

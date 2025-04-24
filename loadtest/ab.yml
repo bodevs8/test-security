@@ -1,0 +1,23 @@
+config:
+  target: http://localhost:3000 # Địa chỉ của server bạn muốn kiểm tra
+  phases:
+    - duration: 60 # Thời gian thử nghiệm (giây)
+      arrivalCount: 20000 # Tổng số request
+      name: AB-style load test
+  http:
+    timeout: 30 # Timeout 30 giây
+    pool: 20000 # Số kết nối đồng thời, tương tự -c20000 trong ab
+    keepAlive: false # Tắt keep-alive giống ab
+  plugins:
+    expect: {}
+    metrics-by-endpoint: {}
+    ensure:
+      maxErrorRate: 1
+
+scenarios:
+  - name: Single URL benchmark
+    flow:
+      - get:
+          url: / # URL của trang cần kiểm tra
+          expect:
+            - statusCode: 200

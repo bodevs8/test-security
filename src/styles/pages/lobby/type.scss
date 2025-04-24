@@ -1,0 +1,146 @@
+.lobby-type {
+  &__container {
+    display: grid;
+    grid-template-columns: repeat(11, 1fr);
+    gap: 10px;
+    overflow-x: auto;
+
+    @media (max-width: 1024px) {
+      display: flex;
+      gap: 8px;
+    }
+  }
+
+  &__item {
+    position: relative;
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+    width: 108px;
+    height: 74px;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 20px;
+    color: var(--color-dark-200);
+    border-radius: 6px;
+    text-transform: capitalize;
+    transition: all 0.3s;
+
+    &:before {
+      content: '';
+      position: absolute;
+      inset: 0;
+      display: block;
+      z-index: 1;
+      border-radius: 6px;
+      background: linear-gradient(180deg, rgba(#e7e9ee, 0.01) 0%, #e7e9ee 100%);
+    }
+
+    &::after {
+      content: '';
+      position: absolute;
+      inset: 0;
+      z-index: 2;
+      display: block;
+      border-radius: 6px;
+      background-color: var(--color-primary-light-100);
+    }
+
+    i {
+      display: none;
+    }
+
+    &.active {
+      color: var(--color-white);
+
+      i {
+        display: block;
+      }
+
+      img {
+        display: none;
+      }
+
+      &::before {
+        background: linear-gradient(
+          180deg,
+          rgba(0, 255, 115, 0) 0%,
+          #00ff73 100%
+        );
+      }
+      &::after {
+        background-color: var(--color-green-500);
+      }
+
+      i {
+        color: var(--color-white);
+      }
+    }
+
+    &.disabled {
+      opacity: 0.5;
+      pointer-events: none;
+    }
+
+    @media (min-width: 1024px) {
+      &:hover {
+        cursor: pointer;
+        color: var(--color-white);
+        i {
+          color: var(--color-white);
+          display: block;
+        }
+
+        img {
+          display: none;
+        }
+
+        &::before {
+          background: linear-gradient(
+            180deg,
+            rgba(0, 255, 115, 0) 0%,
+            #00ff73 100%
+          );
+        }
+        &::after {
+          background-color: var(--color-green-300);
+        }
+      }
+    }
+  }
+
+  &__item-content {
+    position: relative;
+    z-index: 3;
+  }
+
+  @media (max-width: 1024px) {
+    &__item {
+      width: auto;
+      min-width: 40px;
+      padding: 0 16px;
+      height: 60px;
+      gap: 4px;
+
+      &::after {
+        height: 60px;
+      }
+    }
+  }
+  &.casino {
+    @media screen and (min-width: 1024px) {
+      .lobby-type__container {
+        grid-template-columns: repeat(10, 1fr);
+      }
+      .lobby-type__item {
+        width: auto;
+      }
+    }
+  }
+}
+
+.modal-lobby-game {
+  transform: translateY(0);
+}

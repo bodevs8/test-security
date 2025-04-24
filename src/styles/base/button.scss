@@ -1,0 +1,265 @@
+@use '@/styles/abstracts/_breakpoint.scss' as breakpoint;
+
+.base-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  &.button-primary {
+    &.button-fill {
+      background: var(--color-green-500);
+      color: white;
+
+      @include breakpoint.desktop {
+        &:not(:disabled):not(:disabled):not(.loading),
+        &:not(.disabled):not(.disabled):not(.loading) {
+          &:hover {
+            background: var(--color-green-300);
+          }
+          &:active {
+            background: var(--color-green-900);
+          }
+        }
+      }
+    }
+
+    &.button-outline {
+      outline: 2px solid var(--color-primary-200);
+      background: transparent;
+
+      @include breakpoint.desktop {
+        &:not(:disabled):not(:disabled),
+        &:not(.disabled):not(.disabled) {
+          &:hover {
+            background: var(--color-primary-200);
+            outline: 2px solid var(--color-primary-400);
+          }
+
+          &:active {
+            background: var(--color-primary-400);
+            color: var(--color-primary-100);
+          }
+        }
+      }
+    }
+
+    &.button-gradient {
+      background-image: url('/images/background/bg-gradient-pink-200.webp');
+
+      @include breakpoint.desktop {
+        &:not(:disabled):not(:disabled),
+        &:not(.disabled):not(.disabled) {
+          &:hover {
+            color: var(--color-primary-100);
+          }
+
+          &:active {
+            outline: 1px solid var(--color-primary-300);
+          }
+        }
+      }
+    }
+
+    &.button-bet {
+      padding: 0;
+      &.size-default,
+      &.size-lg {
+        background: url('/images/background/button/primary.webp');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+        aspect-ratio: 112/34;
+
+        @include breakpoint.desktop {
+          &:not(:disabled):not(:disabled),
+          &:not(.disabled):not(.disabled) {
+            &:hover {
+              background: url('/images/background/button/primary-hover.webp');
+              background-repeat: no-repeat;
+              background-position: 100% 100%;
+              background-size: cover;
+            }
+
+            &:active {
+              background: url('/images/background/button/primary-active.webp');
+              background-repeat: no-repeat;
+              background-position: 100% 100%;
+              background-size: cover;
+            }
+          }
+        }
+
+        @include breakpoint.mobile {
+          background: url('/images/background/button/mobile/primary.webp');
+          aspect-ratio: 80/26;
+        }
+      }
+
+      &.size-sm {
+        background: url('/images/background/button/mobile/primary.webp');
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center;
+        aspect-ratio: 80/26;
+
+        @include breakpoint.desktop {
+          &:not(:disabled):not(:disabled),
+          &:not(.disabled):not(.disabled) {
+            &:hover {
+              background: url('/images/background/button/mobile/primary-hover.webp');
+            }
+
+            &:active {
+              background: url('/images/background/button/mobile/primary-active.webp');
+            }
+          }
+        }
+      }
+    }
+
+    &.button-link {
+      color: var(--color-green-500);
+
+      &:active {
+        color: var(--color-dark-700);
+      }
+
+      &.disabled,
+      :disabled {
+        color: var(--color-light-300-50) !important;
+      }
+    }
+  }
+
+  &.button-secondary {
+    &.button-fill {
+      background: var(--color-yellow-500);
+      color: var(--color-dark-700);
+
+      @include breakpoint.desktop {
+        &:not(:disabled):not(:disabled),
+        &:not(.disabled):not(.disabled) {
+          &:hover {
+            background: var(--color-yellow-200);
+          }
+
+          &:active {
+            background: var(--color-yellow-600);
+          }
+        }
+      }
+    }
+
+    &.button-outline {
+      outline: 2px solid var(--color-secondary-200);
+      background: transparent;
+
+      @include breakpoint.desktop {
+        &:not(:disabled):not(:disabled),
+        &:not(.disabled):not(.disabled) {
+          &:hover {
+            background: linear-gradient(180deg, #69eb34 0%, #33990a 100%);
+            outline: 2px solid var(--color-secondary-400);
+          }
+          &:active {
+            background: var(--color-secondary-400);
+          }
+        }
+      }
+    }
+
+    &.button-gradient {
+      background-image: url('/images/background/bg-gradient-green-200.webp');
+
+      @include breakpoint.desktop {
+        &:not(:disabled):not(:disabled),
+        &:not(.disabled):not(.disabled) {
+          &:hover {
+            color: var(--color-secondary-100);
+          }
+
+          &:active {
+            outline: 1px solid var(--color-secondary-300);
+          }
+        }
+      }
+    }
+
+    &.button-link {
+      color: var(--color-yellow-600);
+
+      &:active {
+        color: var(--color-dark-700);
+      }
+
+      &.disabled {
+        color: var(--color-light-300-50);
+      }
+    }
+  }
+
+  &.button-gray {
+    background: var(--color-primary-light-100);
+    color: var(--color-dark-700);
+
+    @include breakpoint.desktop {
+      &:not(:disabled):not(:disabled),
+      &:not(.disabled):not(.disabled) {
+        &:hover {
+          background: var(--color-primary-light-150);
+        }
+
+        &:active {
+          background: var(--color-dark-100);
+        }
+      }
+    }
+
+    &.button-link {
+      color: white;
+
+      &.disabled,
+      &:disabled {
+        color: var(--color-gray-200) !important;
+      }
+    }
+  }
+
+  &.button-link {
+    background: transparent !important;
+    border: 0 !important;
+    outline: 0 !important;
+  }
+
+  &.loading {
+    opacity: 0.75;
+    cursor: default;
+    pointer-events: none !important;
+  }
+
+  &.disabled,
+  &:disabled {
+    background: var(--color-primary-light-300) !important;
+    color: var(--color-primary-light-0) !important;
+    outline: 0 !important;
+  }
+
+  &.disable-bg,
+  &.disable-bg:disabled {
+    background: transparent !important;
+    border: 0 !important;
+    outline: 0 !important;
+  }
+}
+
+@include breakpoint.tablet {
+  .right-header-menu {
+    .base-button {
+      height: 30px;
+      padding-left: 0.75rem;
+      padding-right: 0.75rem;
+      font-size: 0.75rem;
+      line-height: 30px;
+    }
+  }
+}

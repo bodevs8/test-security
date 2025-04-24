@@ -1,0 +1,41 @@
+.bg-black\/30 {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.bg-black\/80 {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.bg-black\/50 {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.-custom-translate-x-1\/2 {
+  transform: translateX(-50%);
+}
+
+.-custom-translate-y-1\/2 {
+  transform: translateY(-50%);
+}
+
+.-custom-translate-center {
+  transform: translate(-50%, -50%);
+}
+
+.after\:custom-translate-y-1\/2 {
+  &::after {
+    transform: translateY(-50%);
+  }
+}
+
+.after\:custom-translate-x-1\/2 {
+  &::after {
+    transform: translateX(-50%);
+  }
+}
+
+.after\:custom-translate-center {
+  &::after {
+    transform: translate(-50%, -50%);
+  }
+}

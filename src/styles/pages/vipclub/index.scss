@@ -1,0 +1,464 @@
+.vip-club-container {
+  .guest-banner-container {
+    .title-background {
+      background-image: url('/images/vip-club/title-bg.webp');
+      background-size: 100% 100%;
+      background-position: center;
+      background-repeat: no-repeat;
+      width: 100%;
+      height: 100%;
+      aspect-ratio: 491 / 79;
+    }
+
+    .title-background-reverse {
+      background-image: url('/images/vip-club/title-bg-reverse.webp');
+      background-size: 100% 100%;
+      background-position: center;
+      background-repeat: no-repeat;
+      width: 100%;
+      height: 100%;
+      aspect-ratio: 511 / 102;
+    }
+
+    .title-brand {
+      background: linear-gradient(
+        90.41deg,
+        #ffecb9 4.93%,
+        #fff8ba 16.51%,
+        #ffe7ab 21.56%,
+        #ffef99 33.74%,
+        #ffefc5 42.93%,
+        #fff1a9 52.52%,
+        #ffe99c 60.49%,
+        #ffde91 77.58%,
+        #ffebb7 87.87%,
+        #fde095 96.07%
+      );
+      background-clip: text;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+
+    .swiper-container {
+      .swiper-vip-9 {
+        background:
+          linear-gradient(282.24deg, #f4f2f9 5.52%, #c3aefb 90.16%),
+          radial-gradient(
+            57.07% 56.7% at 54.77% 3.61%,
+            rgba(252, 250, 255, 0.4) 29.67%,
+            rgba(243, 239, 254, 0) 100%
+          );
+      }
+
+      .swiper-vip-8 {
+        background: linear-gradient(232.1deg, #ddfcf2 16.67%, #ecfde4 91.88%);
+      }
+
+      .swiper-vip-7 {
+        background:
+          linear-gradient(58.8deg, #ffe6b6 -5.04%, #fefcf3 94.74%),
+          radial-gradient(
+            57.07% 56.7% at 54.77% 3.61%,
+            rgba(252, 250, 255, 0.4) 29.67%,
+            rgba(243, 239, 254, 0) 100%
+          );
+      }
+
+      .swiper-vip-6 {
+        background: linear-gradient(232.1deg, #faebeb 16.67%, #faebeb 91.88%);
+      }
+
+      .swiper-vip-5 {
+        background: linear-gradient(232.1deg, #e0fbff 16.67%, #d4f7fc 91.88%);
+      }
+
+      .swiper-vip-4 {
+        background: linear-gradient(232.1deg, #daddf0 16.67%, #edf3ff 91.88%);
+      }
+
+      .swiper-vip-3 {
+        background: linear-gradient(232.1deg, #fff2ff 16.67%, #eaebf5 91.88%);
+      }
+
+      .swiper-vip-2 {
+        background: linear-gradient(232.1deg, #f2fff8 16.67%, #eaeaea 91.88%);
+      }
+
+      .swiper-vip-1 {
+        background: linear-gradient(232.1deg, #fff2f2 16.67%, #eaeaea 91.88%);
+      }
+
+      .label-vip-9 {
+        background: linear-gradient(227.29deg, #e15eff 14.44%, #8f28d8 114.22%);
+      }
+
+      .label-vip-8 {
+        background:
+          linear-gradient(180deg, #4cfe8c 0%, #00dd4f 100%),
+          radial-gradient(
+            28.7% 92.89% at 10.19% 30%,
+            rgba(255, 255, 255, 0.2) 40%,
+            rgba(0, 221, 79, 0.2) 100%
+          );
+      }
+
+      .label-vip-7 {
+        background:
+          linear-gradient(180deg, #eec626 0%, #fdcf13 100%),
+          radial-gradient(
+            28.7% 92.89% at 10.19% 30%,
+            rgba(255, 255, 255, 0.2) 40%,
+            rgba(244, 203, 37, 0.2) 100%
+          );
+      }
+
+      .label-vip-6 {
+        background:
+          linear-gradient(180deg, #ff706b 0%, #ff706b 100%),
+          radial-gradient(
+            28.7% 92.89% at 10.19% 30%,
+            rgba(255, 255, 255, 0.2) 40%,
+            rgba(255, 112, 107, 0.2) 100%
+          );
+      }
+
+      .label-vip-5 {
+        background:
+          linear-gradient(180deg, #4ae0f7 0%, #4ae0f7 100%),
+          radial-gradient(
+            28.7% 92.89% at 10.19% 30%,
+            rgba(255, 255, 255, 0.2) 40%,
+            rgba(74, 224, 247, 0.2) 100%
+          );
+      }
+
+      .label-vip-4 {
+        background:
+          linear-gradient(180deg, #ffb152 0%, #ffb152 100%),
+          radial-gradient(
+            28.7% 92.89% at 10.19% 30%,
+            rgba(255, 255, 255, 0.2) 40%,
+            rgba(247, 74, 215, 0.2) 100%
+          );
+      }
+
+      .label-vip-3,
+      .label-vip-2,
+      .label-vip-1 {
+        background:
+          linear-gradient(180deg, #cfcccc 0%, #c6c0c0 100%),
+          radial-gradient(
+            28.7% 92.89% at 10.19% 30%,
+            rgba(255, 255, 255, 0.2) 40%,
+            rgba(211, 211, 211, 0.2) 100%
+          );
+
+        p {
+          color: #21262c;
+        }
+      }
+
+      .label-vip {
+        border-top-left-radius: 6px;
+        border-top-right-radius: 0px;
+        border-bottom-right-radius: 6px;
+        border-bottom-left-radius: 0px;
+        padding-top: 0px;
+        padding-right: 8px;
+        padding-bottom: 0px;
+        padding-left: 8px;
+      }
+
+      .vip-content-9 {
+        background: linear-gradient(
+          90deg,
+          #efe2fd 50%,
+          rgba(255, 255, 255, 0) 100%
+        );
+      }
+
+      .vip-content-8 {
+        background: linear-gradient(
+          90deg,
+          #cef5ca 50%,
+          rgba(255, 255, 255, 0) 100%
+        );
+      }
+
+      .vip-content-7 {
+        background: linear-gradient(
+          90deg,
+          #ffe7b6 37.22%,
+          rgba(255, 255, 255, 0) 100%
+        );
+      }
+
+      .vip-content-6 {
+        background: linear-gradient(
+          90deg,
+          #fae4e4 50%,
+          rgba(255, 255, 255, 0) 100%
+        );
+      }
+
+      .vip-content-5 {
+        background: linear-gradient(
+          90deg,
+          #c3f7ff 50%,
+          rgba(255, 255, 255, 0) 100%
+        );
+      }
+
+      .vip-content-4 {
+        background: linear-gradient(
+          90deg,
+          #ccdef8 50%,
+          rgba(255, 255, 255, 0) 100%
+        );
+      }
+
+      .vip-content-3,
+      .vip-content-2,
+      .vip-content-1 {
+        background: linear-gradient(
+          90deg,
+          #e3e4e2 24.26%,
+          rgba(255, 255, 255, 0) 101.67%
+        );
+      }
+    }
+  }
+
+  .vip-logo-active {
+    background-image: linear-gradient(-180deg, #ffd355 0%, #ffffff 125%);
+    position: relative;
+
+    ::before {
+      content: '';
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      height: 100%;
+      width: 100%s;
+      border-bottom: 2px solid;
+      border-image-source: linear-gradient(
+        90deg,
+        rgba(247, 230, 182, 0) 0%,
+        #ffd355 50.14%,
+        rgba(247, 230, 182, 0) 100%
+      );
+      border-image-slice: 2;
+    }
+  }
+
+  .vip-table-mb {
+    background: linear-gradient(
+      90deg,
+      #fdf2e6 0%,
+      #fffcf2 50.87%,
+      #f5f6f3 68.38%,
+      #f5f6f4 84.15%,
+      #e8edf5 105.19%
+    );
+    border-radius: 6px;
+  }
+
+  .member-banner-container-mb {
+    aspect-ratio: 780 / 680;
+  }
+
+  .member-banner-container-mb.vip-container-7,
+  .member-banner-container-mb.vip-container-8,
+  .member-banner-container-mb.vip-container-9 {
+    aspect-ratio: 780 / 396 !important;
+  }
+
+  .progress-section-mb {
+    background:
+      linear-gradient(
+        102.19deg,
+        rgba(255, 255, 255, 0) 3.44%,
+        rgba(181, 181, 181, 0.03) 97.41%
+      ),
+      linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2));
+    backdrop-filter: blur(100px);
+    border: none;
+    border-radius: 8px;
+    position: relative;
+
+    &::after {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      border-radius: 8px;
+      padding: 1px;
+      background: linear-gradient(
+        245.75deg,
+        rgba(231, 233, 238, 0.2) 16.87%,
+        rgba(229, 229, 229, 0.044) 86.37%
+      );
+      -webkit-mask:
+        linear-gradient(#fff 0 0) content-box,
+        linear-gradient(#fff 0 0);
+      -webkit-mask-composite: xor;
+      mask-composite: exclude;
+      pointer-events: none;
+    }
+  }
+
+  .table-title {
+    background-image: url('/images/vip-club/table-title-bg.webp');
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    aspect-ratio: 2592 / 127;
+  }
+
+  .table-title-mb {
+    background-image: url('/images/vip-club/table-title-bg-mb.webp');
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    aspect-ratio: 1098 / 84;
+  }
+
+  .vip-label-color {
+    background: linear-gradient(270deg, #fbf2d8 18.56%, #f7e6b6 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  .text-lucky-bonus {
+    background: linear-gradient(
+      95.32deg,
+      #fac045 8.15%,
+      #ffe89b 32.78%,
+      #fac045 76.27%,
+      #fff07a 96.26%
+    );
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  .invite-title {
+    background: linear-gradient(
+      90.41deg,
+      #ffecb9 4.93%,
+      #fff8ba 16.51%,
+      #ffe7ab 21.56%,
+      #ffef99 33.74%,
+      #ffefc5 42.93%,
+      #fff1a9 52.52%,
+      #ffe99c 60.49%,
+      #ffde91 77.58%,
+      #ffebb7 87.87%,
+      #fde095 96.07%
+    );
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  .invite-title-highlight {
+    background: linear-gradient(
+      149.86deg,
+      #cfb06d -11.52%,
+      #f7edb7 41.45%,
+      #eda304 123.58%
+    );
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  @for $i from 0 through 9 {
+    .vip-container-#{$i} {
+      .vip-title-bg {
+        background-image: url('/images/vip-club/title-bg-#{$i}.webp');
+        background-size: 100% 100%;
+        background-position: center;
+        background-repeat: no-repeat;
+        aspect-ratio: 491 / 79;
+      }
+
+      .vip-label-bg {
+        background-image: url('/images/vip-club/label-bg-#{$i}.webp');
+        background-size: 100% 100%;
+        background-position: center;
+        background-repeat: no-repeat;
+        aspect-ratio: 511 / 101;
+      }
+    }
+  }
+
+  .base-table {
+    thead tr {
+      background: linear-gradient(90deg, #fff4cf 0%, #ffffff 120%);
+      th:first-child {
+        border-right: none;
+      }
+
+      th:last-child {
+        padding-right: 0;
+      }
+    }
+
+    tbody {
+      background-color: white;
+
+      tr:nth-child(odd) {
+        background-color: #f5f5f7;
+      }
+    }
+
+    td:last-child {
+      padding-right: 0;
+    }
+
+    th:first-child {
+      background: linear-gradient(
+        90deg,
+        #ffd56c 0%,
+        rgba(255, 255, 255, 0) 100%
+      );
+    }
+
+    td:first-child {
+      padding-left: 24px;
+      padding-right: 24px;
+    }
+  }
+
+  .tab-line-item.active {
+    color: white;
+    border-radius: 6px;
+    border: double 2px transparent;
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+    background-image:
+      linear-gradient(var(--color-green-500), var(--color-green-500)),
+      linear-gradient(
+        278.09deg,
+        var(--color-green-250) 7.09%,
+        var(--color-green-250) 52.92%,
+        var(--color-green-250) 98.76%
+      );
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+  }
+}
+
+@media (max-width: 820.5px) {
+  .guest-banner-container .guest-banner {
+    min-height: 310px;
+  }
+}

@@ -1,0 +1,299 @@
+@for $i from 0 through 9 {
+  .bg-vip-#{$i} {
+    background-image: url('/images/account/overview/vip-card-#{$i}.webp');
+  }
+
+  .bg-label-#{$i} {
+    background-image: url('/images/account/overview/vip-label-#{$i}.webp');
+  }
+
+  .vip-card-flag-#{$i} {
+    background-image: url('/images/account/overview/vip-card-flag-#{$i}.webp');
+  }
+}
+
+.bg-label-0 {
+  width: 187px !important;
+  height: 53px !important;
+
+  .label-text {
+    top: 20px !important;
+    right: 14px !important;
+  }
+}
+
+.bg-label-0 {
+  width: 187px;
+  height: 53px;
+  margin-bottom: 12px;
+}
+
+.vip-card-0,
+.vip-card-8,
+.vip-card-9 {
+  .card-item {
+    display: none;
+  }
+}
+
+.hide-privilege {
+  .privilege-card-item {
+    display: none;
+  }
+
+  .learn-more-button {
+    margin-bottom: 0px;
+  }
+
+  .vip-card-title {
+    display: none;
+  }
+}
+
+.vip-card-flag {
+  background-size: 100% 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 160px;
+  height: 232px;
+  display: flex;
+  justify-content: center;
+  padding-left: 37px;
+  padding-right: 37px;
+  text-align: center;
+  align-items: end;
+
+  &__content {
+    font-size: 24px;
+    font-weight: 900;
+    background: -webkit-linear-gradient(
+      180deg,
+      #fff1b3 16.67%,
+      #bfa53b 89.23%,
+      #9e9265 132.95%
+    );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-transform: uppercase;
+    font-style: italic;
+  }
+}
+
+.lucky-money-text {
+  background: -webkit-linear-gradient(#fff1b3 -2.76%, #bfa53b 102.76%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.bg-vip-bonus-item {
+  display: flex;
+  gap: 6px;
+  background:
+    radial-gradient(
+      93.75% 150.05% at 0% 106.98%,
+      rgba(41, 237, 29, 0.5) 0%,
+      rgba(0, 0, 0, 0) 100%
+    ),
+    radial-gradient(
+      50.09% 146.17% at 36.31% -11.63%,
+      rgba(41, 237, 29, 0.15) 0%,
+      rgba(23, 37, 45, 0) 100%
+    );
+  border-radius: 20px;
+  padding: 2px;
+  height: 42px;
+  width: 168px;
+
+  img {
+    margin-bottom: 0px;
+  }
+}
+
+.bg-label-9 {
+  height: 56px !important;
+
+  .label-text {
+    top: 20px !important;
+  }
+}
+
+.vip-label-container {
+  background-size: 100% 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 140px;
+  height: 46px;
+  margin-bottom: 12px;
+
+  .label-text {
+    top: 10px;
+    right: 28px;
+  }
+}
+
+.account-info-vip-container {
+  background-size: auto 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding-left: 16px;
+  padding-top: 20px;
+  max-width: 540px;
+  height: 240px;
+  max-height: 240px;
+  padding-right: 12px;
+
+  .progress-bar-deposit {
+    background: var(--color-error);
+  }
+
+  .progress-bar-turnover {
+    background: var(--color-bright-aqua);
+  }
+}
+
+.card-item {
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-position: center;
+  aspect-ratio: 984/148;
+  width: 100%;
+}
+
+.vip-turnover-card-item {
+  background-image: url('/images/account/overview/vip-card-turnover.webp');
+}
+
+.vip-deposit-card-item {
+  background-image: url('/images/account/overview/vip-card-turnover.webp');
+}
+
+.referral-card-container {
+  background: var(--color-white);
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  width: 100%;
+}
+
+.referral-link-item {
+  background: var(--color-neutral-300);
+  padding-left: 14px;
+  padding-right: 14px;
+}
+
+.right-card {
+  width: calc(100% - 540px - 24px);
+}
+
+.referral-card-item {
+  background-image: url('/images/account/overview/referral-bg.webp');
+  background-size: 100% 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: auto;
+  width: 100%;
+  aspect-ratio: 744/260;
+  justify-content: end;
+  display: flex;
+  padding-top: 16px;
+  padding-bottom: 20px;
+  padding-right: 16.75px;
+}
+
+.bonus-item {
+  background-image: url('/images/account/overview/bonus-item-bg.webp');
+  background-size: 100% 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 42px;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  align-items: center;
+  max-width: 246px;
+
+  img {
+    margin-bottom: 0px;
+    margin-left: 4px;
+  }
+}
+
+.vip-title {
+  span {
+    background: -webkit-linear-gradient(270deg, #fbf2d8 18.56%, #f7e6b6 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+}
+.letter-vip-title {
+  background: linear-gradient(
+    90.41deg,
+    #ffecb9 4.93%,
+    #fff8ba 16.51%,
+    #ffe7ab 21.56%,
+    #ffef99 33.74%,
+    #ffefc5 42.93%,
+    #fff1a9 52.52%,
+    #ffe99c 60.49%,
+    #ffde91 77.58%,
+    #ffebb7 87.87%,
+    #fde095 96.07%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.up-to-text {
+  background: linear-gradient(
+    90.41deg,
+    #ffecb9 4.93%,
+    #fff8ba 16.51%,
+    #ffe7ab 21.56%,
+    #ffef99 33.74%,
+    #ffefc5 42.93%,
+    #fff1a9 52.52%,
+    #ffe99c 60.49%,
+    #ffde91 77.58%,
+    #ffebb7 87.87%,
+    #fde095 96.07%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.circular-progress {
+  --progress: 0;
+  --size: 120px;
+  --half-size: calc(var(--size) / 2);
+  --stroke-width: 16px;
+  --radius: calc((var(--size) - var(--stroke-width)) / 2);
+  --circumference: calc(var(--radius) * pi * 2);
+  --dash: calc((var(--progress) * var(--circumference)) / 100);
+}
+.circular-progress circle {
+  cx: var(--half-size);
+  cy: var(--half-size);
+  r: var(--radius);
+  stroke-width: var(--stroke-width);
+  fill: none;
+  stroke-linecap: round;
+}
+.circular-progress circle.bg {
+  stroke: #f5f5f7;
+  box-shadow: 0px 4px 4px 0px #0000001a inset;
+}
+.circular-progress circle.fg {
+  transform: rotate(-90deg);
+  transform-origin: var(--half-size) var(--half-size);
+  stroke-dasharray: var(--dash) calc(var(--circumference) - var(--dash));
+  transition: stroke-dasharray 0.3s linear 0s;
+  stroke: #00c559;
+}
+
+@keyframes progress-animation {
+  from {
+    --progress: 0;
+  }
+  to {
+    --progress: 100;
+  }
+}

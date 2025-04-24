@@ -1,0 +1,1 @@
+export { BetHistoryMobile } from './BetHistory';

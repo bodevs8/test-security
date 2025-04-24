@@ -1,0 +1,45 @@
+.header-embla-banner {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.header-title {
+  background-image: url('/images/header/highlight.webp');
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.header-embla-dot {
+  background: rgba(255, 255, 255, 0.5);
+  backdrop-filter: blur(9.333333969116211px);
+  opacity: 5;
+}
+
+.header-banner-text {
+  background: linear-gradient(
+    95deg,
+    #fac045 8.15%,
+    #ffe89b 32.78%,
+    #fac045 76.27%,
+    #fff07a 96.26%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.hero-banner-text {
+  -webkit-text-stroke-width: 0.47px;
+  -webkit-text-stroke-color: #fff;
+  background: linear-gradient(
+    120deg,
+    #ffcf71 27.58%,
+    #f9edc1 50%,
+    #e3af42 72.42%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}

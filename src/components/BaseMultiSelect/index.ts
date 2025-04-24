@@ -1,0 +1,1 @@
+export { BaseMultiSelect } from './BaseMultiSelect';

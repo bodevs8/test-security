@@ -1,0 +1,1 @@
+export { BaseSlide } from './BaseSlide';

@@ -1,0 +1,127 @@
+.lobby-filter {
+  &__button {
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    height: 40px;
+    padding: 10px;
+    color: var(--color-dark-200);
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 500;
+    transition: all 0.3s ease;
+    background-color: var(--color-primary-light-100);
+    border-radius: 4px;
+    border: 1px solid transparent;
+
+    &.active {
+      color: var(--color-green-500);
+      border: 1px solid var(--color-green-500);
+      background: linear-gradient(
+        0deg,
+        rgba(0, 255, 62, 0.1) 0%,
+        rgba(0, 255, 62, 0) 70.66%
+      );
+
+      .lobby-filter__icon-active {
+        display: block;
+      }
+      .lobby-filter__icon-default {
+        display: none;
+      }
+    }
+
+    @media (min-width: 1024px) {
+      &:hover {
+        cursor: pointer;
+        color: var(--color-white);
+        background-color: var(--color-green-300);
+        .lobby-filter__icon-active {
+          display: block;
+        }
+        .lobby-filter__icon-default {
+          display: none;
+        }
+      }
+    }
+
+    @media screen and (max-width: 540px) {
+      &.all {
+        .lobby-filter__button-text {
+          display: none;
+        }
+      }
+    }
+
+    @media screen and (max-width: 400px) {
+      padding: 0;
+      justify-content: center;
+      &.all {
+        width: 10.26vw;
+      }
+      &.hot {
+        width: 18.72vw;
+      }
+      &.recent {
+        width: 28.21vw;
+      }
+      &.favorite {
+        width: 29.23vw;
+      }
+    }
+  }
+
+  &__search-bar {
+    position: relative;
+
+    @media (max-width: 767.5px) {
+      flex-direction: column;
+      height: 44px;
+
+      &.disable-toggle-bar {
+        .toggle-search-bar {
+          display: none;
+        }
+
+        .lobby-filter__input {
+          width: 100%;
+          max-width: 100%;
+        }
+      }
+
+      &.active {
+        .multi-select__wrapper {
+          opacity: 0;
+          left: calc(-100% - 52px);
+        }
+
+        .lobby-filter__input {
+          opacity: 1;
+          left: 0;
+        }
+      }
+
+      .multi-select__wrapper,
+      .lobby-filter__input {
+        position: absolute;
+        left: 0;
+        width: 100%;
+        transition: all 0.3s;
+      }
+
+      .multi-select__wrapper {
+        max-width: calc(100% - 52px);
+      }
+
+      .lobby-filter__input {
+        left: calc(-100% - 52px);
+        max-width: 100%;
+      }
+    }
+  }
+
+  .multi-select__wrapper {
+    flex: 1;
+  }
+}

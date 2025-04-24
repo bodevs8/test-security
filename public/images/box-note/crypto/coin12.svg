@@ -1,0 +1,16 @@
+<svg width="33" height="32" viewBox="0 0 33 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Vector">
+<rect id="Rectangle 41141" x="0.5" y="15.9995" width="22.6274" height="22.6274" rx="3.05788" transform="rotate(-45 0.5 15.9995)" fill="url(#paint0_linear_2686_7908)"/>
+<g id="Vector_2">
+<path d="M19.3231 8.41016H13.5189L7.13839 16.1764H12.9426L19.3231 8.41016Z" fill="white"/>
+<path d="M19.6501 24.0243H13.8035L7.05664 16.1764H12.9032L19.6501 24.0243Z" fill="#FFF1E6"/>
+<path d="M18.0151 13.5604H23.2471V18.7924H18.0151V13.5604Z" fill="white"/>
+</g>
+</g>
+<defs>
+<linearGradient id="paint0_linear_2686_7908" x1="-0.442808" y1="46.1694" x2="6.11573" y2="13.6008" gradientUnits="userSpaceOnUse">
+<stop stop-color="#F98338"/>
+<stop offset="1" stop-color="#FF9F31"/>
+</linearGradient>
+</defs>
+</svg>

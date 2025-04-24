@@ -1,0 +1,1 @@
+export { TransactionProviderTab } from './TransactionProviderTab';

@@ -1,0 +1,123 @@
+.lobby-banner {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 198px;
+  background: url('/images/lobby/banner/banner-bg.webp') no-repeat center center;
+  background-size: cover;
+
+  &.casino {
+    background: url('/images/lobby/banner/casino-banner-bg.webp') no-repeat
+      center center;
+    background-size: cover;
+
+    .recent-win-item {
+      background: url('/images/lobby/banner/casino-recent-win-item-bg.webp')
+        no-repeat center center;
+      background-size: cover;
+      border-color: #9b5c02;
+      border-radius: 4px;
+
+      img {
+        border-radius: 4px;
+      }
+    }
+  }
+
+  &__jackpot {
+    position: absolute;
+    bottom: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4px;
+    width: 100%;
+    height: 52px;
+    padding-right: 4px;
+    padding-bottom: 8px;
+    font-size: 30px;
+    background: url('/images/lobby/banner/jackpot-bg.webp') no-repeat center
+      center;
+    background-size: 100%;
+  }
+
+  .recent-win-item {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    width: 249px;
+    height: 146px;
+    padding: 6px 12px 6px 6px;
+    color: var(--color-white);
+    background: linear-gradient(143.23deg, #222c25 16.68%, #092d14 83.32%);
+    border: 1px solid var(--color-green-500);
+    border-radius: 6px;
+
+    &__label {
+      display: inline-block;
+      background: linear-gradient(266.75deg, #00ff7f 1.66%, #00ffbf 98.34%);
+      padding: 2px 4px;
+      color: var(--color-dark-700);
+      border-radius: 4px;
+      font-weight: bold;
+      font-size: 10px;
+      text-transform: uppercase;
+    }
+  }
+
+  @media screen and (max-width: 1336px) {
+    background-position-x: -280px;
+  }
+  @media screen and (max-width: 767.5px) {
+    background: transparent !important;
+    height: auto;
+
+    .recent-win-item {
+      width: 165px;
+      height: 82px;
+      padding: 8px;
+      border: solid 1px var(--color-green-500);
+
+      img {
+        height: 66px;
+        width: 44px;
+      }
+
+      &__label {
+        font-size: 10px;
+        margin-bottom: 8px;
+      }
+    }
+    .x-container {
+      padding: 0 !important;
+    }
+
+    &__jackpot {
+      width: 60.26vw;
+      right: 0;
+      background: url('/images/lobby/banner/jackpot-bg-mb.webp') no-repeat
+        center right;
+      background-size: contain;
+      height: 21.79vw;
+      font-size: 6.15vw;
+      padding-bottom: 4.23vw;
+      padding-left: 1.03vw;
+      bottom: -0.51vw;
+    }
+
+    &.casino {
+      .lobby-banner__jackpot {
+        background: url('/images/lobby/banner/casino-jackpot-bg-mb.webp')
+          no-repeat center right;
+        background-size: contain;
+        height: 22.31vw;
+        bottom: 0;
+        padding-bottom: 0;
+        padding-top: 1.8vw;
+        padding-left: 6.505vw;
+        bottom: 2.56vw;
+        right: 2.4vw;
+      }
+    }
+  }
+}

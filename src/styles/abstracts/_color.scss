@@ -1,0 +1,177 @@
+$colors: (
+  'green-neon-100': #b2dec8,
+  'green-neon-500': #6cfe00,
+
+  'primary-dark-200': #6986a6,
+
+  'primary-light-0': #ffffff,
+  'primary-light-50': #f5f5f7,
+  'primary-light-100': #eff1f6,
+  'primary-light-150': #e7e9ee,
+  'primary-light-200': #e2e3e9,
+  'primary-light-200-50': #e2e3e950,
+  'primary-light-300': #cfd1d9,
+  'primary-light-400': #bdc0c8,
+  'primary-light-500': #aaaeb7,
+
+  'dark-100': #949494,
+  'dark-200': #636975,
+  'dark-300': #575d6a,
+  'dark-400': #4c5057,
+  'dark-500': #32353b,
+  'dark-600': #2a2b2e,
+  'dark-700': #21262c,
+  'dark-800': #0c0c0c,
+  'dark-900': #0d0e11,
+
+  'yellow-neon': #fdfff0,
+  'yellow-neon-100': #f8ffd0,
+  'yellow-neon-200': #f4ffad,
+  'yellow-neon-300': #f0ff85,
+  'yellow-neon-400': #eeff6e,
+  'yellow-neon-500': #ebff1e,
+  'yellow-neon-600': #ccde19,
+  'yellow-neon-700': #aebe13,
+  'yellow-neon-800': #758009,
+  'yellow-neon-900': #414803,
+
+  'blue-100': #dbeafe,
+  'blue-200': #bfdbfe,
+  'blue-300': #93c5fd,
+  'blue-400': #60a5fa,
+  'blue-500': #3b82f6,
+  'blue-550': #4a7dfe,
+  'blue-600': #2563eb,
+  'blue-650': #2850b4,
+  'blue-700': #1d4ed8,
+  'blue-800': #1e40af,
+  'blue-900': #1e3a8a,
+  'primary-blue-500': #000d4c,
+
+  'red-100': #fee2e2,
+  'red-200': #fecaca,
+  'red-300': #fca5a5,
+  'red-400': #f87171,
+  'red-500': #ff2c20,
+  'red-600': #f93e3b,
+  'red-650': #ff274e,
+  'red-700': #b91c1c,
+  'red-750': #d41a3b,
+  'red-800': #991b1b,
+  'red-850': #87054d,
+  'red-900': #7f1d1d,
+
+  'pink-300': #df07b0,
+
+  'sky-blue-50': #ddebf8,
+  'sky-blue-100': #c6def3,
+  'sky-blue-200': #afd1ee,
+  'sky-blue-300': #a4caeb,
+  'sky-blue-400': #98c4e9,
+  'sky-blue-500': #8dbde6,
+  'sky-blue-600': #7faacf,
+  'sky-blue-700': #7197b8,
+  'sky-blue-800': #6384a1,
+  'sky-blue-900': #55718a,
+
+  'green-50': #ebffef,
+  'green-80': #ddf8e0,
+  'green-100': #c2efd1,
+  'green-200': #92d8af,
+  'green-250': #bbf7d0,
+  'green-300': #61c18d,
+  'green-350': #28c70b,
+  'green-400': #31aa6b,
+  'green-450': #7fe8a5,
+  'green-500': #009349,
+  'green-600': #2b9e47,
+  'green-700': #21913d,
+  'green-800': #168334,
+  'green-900': #0c752a,
+  'green-950': #bbf7d033,
+  'green-250-30': #bbf7d04d,
+
+  'yellow-50': #fdf5eb,
+  'yellow-100': #fff5dc,
+  'yellow-200': #ffe9b2,
+  'yellow-300': #ffdd88,
+  'yellow-400': #ffd15d,
+  'yellow-500': #ffc533,
+  'yellow-600': #d6a22c,
+  'yellow-700': #ad8025,
+  'yellow-800': #835d1e,
+  'yellow-900': #5a3a17,
+
+  'black-700': #25282d,
+
+  'orange-50': #ff9000,
+  'orange-100': #f15d02,
+  'orange-200': #ff6200,
+
+  'light-200-30': #10261d4d,
+  'light-500-80': #d4d7e6cc,
+  'dark-400-50': #00000080,
+  'light-300-50': #e3e5ee80,
+  'light-300-70': #8b98b2,
+
+  'label-new': #6cfe00,
+  'label-live': #ef4444,
+  'label-hot': #ef4444,
+  'label-comming': #f15d02,
+  'label-disabled': #cfd1d9,
+
+  'success': #009349,
+  'error': #ef4444,
+  'warning': #d6a22c,
+  'disabled': #e3e5ee80,
+
+  'cta-primary': #009349,
+  'cta-primary-hover': #61c18d,
+  'cta-primary-accent': #0c752a,
+
+  'cta-secondary': #ffc533,
+  'cta-secondary-hover': #ffe9b2,
+  'cta-secondary-accent': #d6a22c,
+
+  'cta-tertiary': #eff1f6,
+  'cta-tertiary-hover': #e7e9ee,
+  'cta-tertiary-accent': #979ca7,
+  'cta-tertiary-disabled': #e3e5ee80,
+
+  'icon-primary': #009349,
+  'icon-secondary': #6cfe00,
+  'icon-tertiary': #ffffff,
+  'icon-quaternary': #979ca7,
+  'icon-quinary': #2a2b2e,
+  'icon-mute': #cfd1d9,
+  'icon-yellow': #ffc533,
+
+  'purple-100': #95b2fb,
+  'purple-200': #3a4098,
+
+  'money': #ffd15d,
+  'highlight': #ff9000,
+
+  'neutral-100': #f9fafb,
+  'neutral-400': #ebefff,
+
+  'gradient-neutral-1': linear-gradient(180deg, #f7fcf9 -5.14%, #e5ece4 122.29%),
+  'gradient-neutral-2': linear-gradient(180deg, #f7fcf9 0%, #e5ece4 90.29%),
+  'shadow-default': 0px 4px 4px 0px rgba(0, 0, 0, 0.25),
+  'gradient-green': linear-gradient(
+      0deg,
+      rgba(0, 255, 62, 0.1) 0%,
+      rgba(0, 255, 62, 0) 70.66%
+    ),
+  'woodsmoke-38': #0c0c0c61,
+  'bright-aqua': #00f6ff,
+
+  'toast-error': #dc2626,
+  'toast-success': #009349,
+);
+
+:root {
+  @each $name, $value in $colors {
+    --color-#{$name}: #{$value};
+  }
+}

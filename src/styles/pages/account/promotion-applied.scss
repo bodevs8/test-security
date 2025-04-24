@@ -1,0 +1,75 @@
+.title-bg {
+  background-image: url('/images/promotion-applied/title-bg.webp');
+  background-size: 100% 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  aspect-ratio: 334 / 50;
+}
+
+.sub-title-bg {
+  background-image: url('/images/promotion-applied/sub-title-bg.webp');
+  background-size: 100% 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  aspect-ratio: 329 / 67;
+}
+
+.promotion-note-bg {
+  background:
+    radial-gradient(
+      108.08% 159.21% at -4.52% -13.94%,
+      rgba(255, 144, 0, 0.15) 0%,
+      rgba(255, 255, 255, 0) 100%
+    ),
+    radial-gradient(
+      51.37% 169.66% at 100% 95.14%,
+      rgba(255, 144, 0, 0.035) 0%,
+      rgba(255, 255, 255, 0) 100%
+    ),
+    linear-gradient(
+      0deg,
+      var(--bg-primary, #ffffff),
+      var(--bg-primary, #ffffff)
+    );
+}
+
+.cashback-upto {
+  background: linear-gradient(
+    90.41deg,
+    #ffecb9 4.93%,
+    #fff8ba 16.51%,
+    #ffe7ab 21.56%,
+    #ffef99 33.74%,
+    #ffefc5 42.93%,
+    #fff1a9 52.52%,
+    #ffe99c 60.49%,
+    #ffde91 77.58%,
+    #ffebb7 87.87%,
+    #fde095 96.07%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.cashback-table.base-table {
+  thead tr {
+    background-color: #f5f5f7 !important;
+
+    th:last-child {
+      padding-right: 0 !important;
+    }
+
+    th:first-child {
+      padding-left: 0 !important;
+    }
+  }
+
+  tbody tr td:last-child {
+    padding-right: 0 !important;
+  }
+
+  tbody tr td:first-child {
+    padding-left: 0 !important;
+  }
+}

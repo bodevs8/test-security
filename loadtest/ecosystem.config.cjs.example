@@ -1,0 +1,25 @@
+module.exports = {
+  apps: [
+    {
+      name: 't08lega-web',
+      port: '3000',
+      exec_mode: 'fork',
+      instances: 1,
+      script:
+        'node --expose-gc --inspect --trace-gc --max-semi-space-size=128 node_modules/.bin/next start',
+      max_memory_restart: '1G',
+      env: {
+        NODE_ENV: 'production',
+      },
+      exp_backoff_restart_delay: 100,
+      merge_logs: true,
+      node_args: '',
+      kill_timeout: 10000,
+      max_restarts: 10,
+      min_uptime: '30s',
+      listen_timeout: 30000,
+      wait_ready: true,
+      kill_signal: 'SIGTERM',
+    },
+  ],
+};

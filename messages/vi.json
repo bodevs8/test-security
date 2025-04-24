@@ -1,0 +1,1675 @@
+{
+  "Common": {
+    "label": {
+      "branding": "Thịnh hành",
+      "hot": "Hot",
+      "live": "Live",
+      "new": "New",
+      "load_more": "Xem thêm",
+      "available": "Khả dụng",
+      "maintain": "Bảo trì",
+      "coming": "Sắp ra mắt",
+      "currently_applying": "Đang áp dụng",
+      "not_available": "Không khả dụng",
+      "win": "Thắng"
+    },
+    "menu": {
+      "home": "Trang chủ",
+      "favorite": "Yêu thích",
+      "sports": "Thể thao",
+      "live_casino": "Live Casino",
+      "number_game": "Quay số",
+      "jackpot": "Nổ hũ",
+      "keno": "Keno",
+      "lottery": "Lô đề",
+      "card_game": "Game bài",
+      "cockfight": "Đá gà",
+      "fishing": "Bắn cá",
+      "slots": "Slots",
+      "turbo": "Game nhanh",
+      "table_game": "Table games",
+      "gate_games": "Cổng Game",
+      "livechat": "Live Chat",
+      "account": "Tài khoản",
+      "deposit": "Nạp tiền",
+      "promotion": "Khuyến mãi",
+      "player_rewards": "Hậu đãi người chơi",
+      "vip_club": "VIP CLUB",
+      "event": "Sự kiện",
+      "referral": "Mời bạn bè",
+      "news": "Tin tức",
+      "support": "Trợ giúp",
+      "telegram": "Telegram",
+      "scroll_to_top": "Đầu trang",
+      "category": "Danh mục"
+    },
+    "sub_menu": {
+      "go88": "Go88",
+      "rik": "Rik",
+      "techplay": "Techplay",
+      "b52": "B52",
+      "atom": "Atom",
+      "number_game": "Number game",
+      "number_lucky": "QUAY SỐ THẦN TÀI",
+      "number_sexy": "QUAY SỐ SEXY",
+      "number_game_2": "NUMBER GAME 2",
+      "number_game_5": "QUAY SỐ 5",
+      "keno_loc_phat": "Keno Lộc Phát",
+      "keno_sieu_toc": "Keno Siêu Tốc",
+      "keno": "Keno",
+      "keno_vietlott": "Keno Vietlott",
+      "lo_de_3_mien": "Lô đề 3 miền",
+      "lo_de_sieu_toc": "Lô đề siêu tốc",
+      "lo_de_md5": "Lô đề md5",
+      "cockfight_ws168": "WS168",
+      "cockfight_ga28": "GA28",
+      "askmebet": "Ask Me Bet",
+      "qtech": "Qtech",
+      "jili": "Jili",
+      "play_n_go": "play’N go",
+      "pragmatic": "Pragmatic",
+      "kingmaker": "Kingmaker",
+      "spribe": "Spribe",
+      "evoplay": "EvoPlay",
+      "gameplay": "GamePlay"
+    },
+    "home": "Trang chủ",
+    "hour": "Giờ",
+    "minute": "Phút",
+    "second": "Giây",
+    "cancel": "Hủy",
+    "close": "Đóng",
+    "step": "Bước {step}",
+    "all": "Tất cả",
+    "detail": "Chi tiết",
+    "button": {
+      "bet_now": "CƯỢC NGAY",
+      "play_now": "chơi ngay",
+      "join_now": "Tham gia ngay",
+      "deposit": "Nạp tiền",
+      "withdraw": "Rút tiền",
+      "download": "Tải xuống",
+      "new_deposit": "Tạo phiếu nạp mới",
+      "deposit_success": "Giao dịch hoàn tất",
+      "paste": "Dán",
+      "pasted": "Đã dán",
+      "next": "Sau",
+      "prev": "Trước"
+    },
+    "empty": {
+      "match": "Đang cập nhật các giải đấu",
+      "default": "Không có dữ liệu",
+      "search": "Không có kết quả tìm kiếm",
+      "search_condition": "Vui lòng nhập ít nhất 2 ký tự để bắt đầu tìm kiếm."
+    },
+    "recent_wins": {
+      "title": "Thắng Gần Đây"
+    },
+    "message": {
+      "error": "Đã có lỗi xảy ra! Vui lòng thử lại sau.",
+      "unauthorized": "Tài khoản của bạn đã được đăng nhập trên trình duyệt hoặc thiết bị khác."
+    },
+    "base_multi_select": {
+      "default": "Tất cả",
+      "un_selected": "Bỏ chọn"
+    },
+    "input": {
+      "amount": {
+        "placeholder": "từ {min} {unit} - {max} {unit}"
+      }
+    }
+  },
+  "Pages": {
+    "HomePage": {
+      "title": "Hello world!",
+      "about": "Go to the about page",
+      "banner": {
+        "new_member": {
+          "upto": "Tặng ngay 50,000 VND"
+        },
+        "welcome": {
+          "upto": "20,000,000 VND"
+        },
+        "weekly": {
+          "upto": "Lên đến 0.95%"
+        },
+        "sports": {
+          "upto": "Hoàn trả lên đến 1.4%"
+        },
+        "deposit": {
+          "upto": "Lên đến 0.95%"
+        },
+        "upto-1-4": {
+          "upto": "Dành cho tất cả sản phẩm"
+        }
+      },
+      "live_casino": {
+        "title": "Live Casino"
+      },
+      "sport": {
+        "title": "thể thao đỉnh cao",
+        "provider": {
+          "saba": "Saba Sports",
+          "ksports": "K-Sports",
+          "im": "IM Sports",
+          "bti": "BTI Sports"
+        },
+        "title_match": "TRận đấu Hấp dẫn"
+      },
+      "hot_games": {
+        "title": "Game Hot"
+      },
+      "jackpot": {
+        "title": "Hũ siêu hot",
+        "filtered": {
+          "big_jackpot": "Hũ Lớn",
+          "recent_jackpot": "Hũ sắp nổ",
+          "slot": "Hũ Slot",
+          "fishing": "hũ Bắn Cá"
+        }
+      },
+      "news": {
+        "title": "Tin tức mới nhất"
+      },
+      "promotion": {
+        "title": "Khuyến mãi hấp dẫn"
+      }
+    },
+    "NewsPage": {
+      "title": "Tin tức",
+      "description": "Cập nhật tin tức mới nhất",
+      "empty": "Không có dữ liệu",
+      "hot_news": "Nổi bật",
+      "latest_news": "Tin tức mới nhất",
+      "all_news": "Tất cả tin tức",
+      "news_category": "Danh mục tin tức",
+      "news_detail": "Chi tiết tin tức",
+      "related_news": "Tin tức liên quan"
+    },
+    "Account": {
+      "menu": {
+        "overview": "Tổng quan",
+        "p2p": "Giao dịch p2P",
+        "deposit": "Nạp tiền",
+        "withdraw": "Rút tiền",
+        "transaction_history": "lịch sử giao dịch",
+        "bet_history": "lịch sử cá cược",
+        "bank_info": "thông tin ngân hàng",
+        "my_profile": "hồ sơ cá nhân",
+        "password": "mật khẩu",
+        "promotion_applied": "khuyến mãi áp dụng",
+        "news": "Tin tức",
+        "telegram": "Telegram",
+        "contact": "Live chat"
+      },
+      "transaction_history": {
+        "refresh": {
+          "title": "Lịch sử giao dịch tiền hiển thị tối đa trong 3 ngày",
+          "btn": "Làm mới bộ lọc"
+        },
+        "filter": {
+          "status": {
+            "placeholder": "Trạng thái",
+            "placeholder_mobile": "Chọn trạng thái",
+            "all": "Tất cả",
+            "success": "Thành công",
+            "processing": "Đang xử lý",
+            "cancel": "Hủy",
+            "return": "Hoàn trả"
+          },
+          "action": {
+            "placeholder": "Loại giao dịch",
+            "placeholder_mobile": "Chọn Loại giao dịch",
+            "all": "Tất cả",
+            "deposit": "Nạp tiền",
+            "withdraw": "Rút tiền"
+          }
+        },
+        "table": {
+          "id": "ID/Thời gian",
+          "id_mobile": "ID:",
+          "type": "Loại",
+          "amount": "Số tiền",
+          "bank_code": "Ngân hàng",
+          "method": "Hình thức",
+          "bank_trancode": "Ghi chú",
+          "status": "Trạng thái",
+          "phone_card": "Mã thẻ"
+        },
+        "action_type": {
+          "deposit": "Nạp tiền",
+          "withdraw": "Rút tiền",
+          "cancel_promotion": "Huỷ khuyến mãi",
+          "promotion": "Khuyến mãi"
+        },
+        "method": {
+          "cashback": "Cashback",
+          "p2p": "P2P",
+          "phone_card": "Thẻ cào",
+          "bank_account": "Ngân hàng",
+          "crypto": "Tiền ảo",
+          "cryptopay": "Tiền ảo",
+          "ibanking": "Internet Banking",
+          "ewallet": "Ví Điện Tử",
+          "momo": "Ví Điện Tử",
+          "zalopay": "Ví Điện Tử",
+          "viettel_money": "Ví Điện Tử",
+          "refund": "Hoàn trả",
+          "nicepay": "Codepay",
+          "codepay": "Codepay",
+          "flexpay": "Flexpay",
+          "cancel_promotion": "Hủy khuyến mãi",
+          "vip_level_up": "Thưởng Tăng Hạng",
+          "vip_new_year": "Lì Xì Năm Mới",
+          "system": "Hệ Thống"
+        },
+        "status": {
+          "ALL": "Tất cả",
+          "PENDING": "Đang xử lý",
+          "CC_PENDING": "Đang xử lý",
+          "WAITING": "Đang xử lý",
+          "CC_PROCESSING": "Đang xử lý",
+          "APPROVED": "Đang xử lý",
+          "PHONE_CARD_PROCESSING": "Đang xử lý",
+          "SMART_PAY_PROCESSING": "Đang xử lý",
+          "PROCESSING": "Đang xử lý",
+          "MOMO_PROCESSING": "Đang xử lý",
+          "DRAFT": "Đang xử lý",
+          "CANCEL": "Hủy",
+          "CANCELLED": "Hủy",
+          "DELETE": "Hủy",
+          "REFUND": "Hoàn trả",
+          "COMMISSION": "Hoàn trả",
+          "FINISHED": "Thành công",
+          "SUCCESS": "Thành công"
+        },
+        "modal": {
+          "card_serial": "Số serial",
+          "pin_code": "Mã thẻ"
+        }
+      },
+      "change_password": {
+        "placeholder_password": "Nhập mật khẩu hiện tại",
+        "placeholder_new": "Nhập mật khẩu mới",
+        "placeholder_confirm": "Nhập lại mật khẩu mới",
+        "label_password": "Mật khẩu hiện tại",
+        "label_new_password": "Mật khẩu mới",
+        "label_confirm_password": "Xác nhận mật khẩu mới",
+        "label_button": "Cập nhật"
+      },
+      "deposit": {
+        "menus": {
+          "codepay": "CodePay",
+          "crypto": "Tiền ảo",
+          "flexpay": "FlexPay",
+          "ewallet": "Ví điện tử",
+          "phone_card": "Thẻ Cào"
+        },
+        "mobile": {
+          "title": "GIAO DỊCH HIỆU QUẢ, ĐA DẠNG PHƯƠNG THỨC",
+          "description": "Xử lý nhanh chóng",
+          "one_minute": "trong 1 phút!",
+          "detail": {
+            "codepay": "Ngập tràn ưu đãi",
+            "crypto": "An toàn và bảo mật ",
+            "flexpay": "Thanh toán siêu tốc",
+            "ewallet": "Tiện lợi và dễ sử dụng",
+            "phone_card": "Dễ dàng thanh toán"
+          }
+        },
+        "crypto": {
+          "title": "Chọn loại tiền ảo",
+          "note_qr": "Quét mã QR hoặc gửi tiền ảo vào ví bên dưới",
+          "address_text": "Địa chỉ ví",
+          "copy_address": "Sao chép",
+          "check_status": "Bạn có thể kiểm tra trạng thái giao dịch",
+          "here": "Tại đây",
+          "copied": "Đã chép",
+          "tutorial_provider": "Hướng dẫn nơi mua USDT",
+          "tutorial_crypto": "HƯỚNG DẪN NẠP TIỀN ẢO",
+          "step_1": "Bước 1:",
+          "text_step_1": "Chọn loại tiền ảo.",
+          "step_2": "Bước 2:",
+          "text_step_2": "Vào trang nạp tiền ảo để lấy địa chỉ ví duy nhất cho từng khách hàng.",
+          "step_3": "Bước 3:",
+          "text_step_3": "Chuyển tiền ảo vào địa chỉ ví ở bước 2",
+          "text_4": "Bước 4:",
+          "text_step_4": "Đợi 5 phút tiền sẽ cập nhật vào tài khoản.",
+          "note_text": "LƯU Ý",
+          "note_text_1": "Quý khách vui lòng gửi đúng loại tiền vào địa chỉ ví được cấp.",
+          "note_text_2": "Chúng tôi không chịu trách nhiệm nếu bạn gửi không đúng loại tiền ảo.",
+          "note_text_3": "Sau 5 phút nếu quý khách chưa nhận được tiền hãy nhờ hỗ trợ",
+          "note_text_4": "Khuyến mãi 100% không áp dụng khi nạp Tiền Ảo.",
+          "note_text_5": "Live Chat 24/7",
+          "note_text_6": "hoặc",
+          "note_text_7": "Chat Telegram."
+        },
+        "phone_card": {
+          "title": "Chọn nhà mạng",
+          "select_amount": "Chọn mệnh giá ({unit})",
+          "label_card_code": "Mã thẻ (PIN)",
+          "label_card_serial": "Số series",
+          "success": "Tạo phiếu nạp thành công.",
+          "error": "Có lỗi. Vui lòng thử lại.",
+          "note_text_1": "Vui lòng chọn đúng mệnh giá và nhà mạng. Nếu bạn chọn sai chúng tôi sẽ không chịu trách nhiệm.",
+          "note_text_2": "Phí gạch thẻ rẻ nhất thị trường (VINAPHONE 10%; VIETTEL và VIETNAMOBILE 11%; MOBIFONE 12%).",
+          "note_text_3": "Khuyến mãi 100% không áp dụng khi nạp Thẻ Cào.",
+          "placeholder_card_code": "Nhập mã thẻ",
+          "placeholder_card_serial": "Nhập số series"
+        },
+        "codepay": {
+          "form": {
+            "header": {
+              "title": "An toàn, bảo mật, xử lý nhanh chóng 24/7 ",
+              "content": "Thông qua NAPAS"
+            },
+            "amount": {
+              "label": "Số tiền nạp",
+              "placeholder": "Từ {min} {unit} - {max} {unit}"
+            },
+            "package": {
+              "label": "Chọn khuyến mãi",
+              "return": "Hoàn trả lên đến 1.4%",
+              "welcome": "Thưởng chào mừng 100%"
+            }
+          },
+          "result": {
+            "code": "Mã phiếu:",
+            "expired": "Hết hạn sau",
+            "account_number": "Số tài khoản",
+            "account_name": "Chủ tài khoản",
+            "note": "Nội dung",
+            "expired_note": "Giao dịch hết hạn"
+          },
+          "note": {
+            "guideline": {
+              "title": "hướng dẫn nạp tiền",
+              "min_deposit": "Quý khách cần chuyển",
+              "limit": "tối thiểu",
+              "require_verify": "Vui lòng nhập đúng nội dung chuyển tiền để được xử lý nhanh chóng."
+            },
+            "warning": {
+              "title": "Lưu ý",
+              "content": "Quý khách vui lòng không lưu lại các tài khoản ngân hàng của {brandName}, mỗi lần giao dịch Quý khách cần vào mục Nạp Tiền để lấy thông tin chuyển khoản. Các tài khoản ngân hàng sẽ luôn được cập nhật thay đổi liên tục. Xin cảm ơn Quý Khách!",
+              "require_input": "Vui lòng nhập đúng nội dung và số tiền để được xử lý nhanh chóng, chuyển không đúng sẽ không nhận được tiền vào tài khoản.",
+              "limit_deposit": "Quý khách hạn chế tạo nhiều phiếu nạp mà không hoàn thành để không bị giới hạn nạp.",
+              "contact_support": "Sau 1 phút nếu chưa nhận được tiền, vui lòng Liên hệ",
+              "support_title": "CSKH 24/7",
+              "support_description": "để được hỗ trợ."
+            }
+          }
+        },
+        "flexpay": {
+          "form": {
+            "bank_select": "Chọn ngân hàng",
+            "amount": {
+              "label": "Số tiền nạp",
+              "placeholder": "Từ {min} {unit} - {max} {unit}"
+            }
+          },
+          "note": {
+            "guideline": {
+              "title": "Hướng dẫn quét mã QR",
+              "step_1": "Nhập số tiền và tạo mã QR.",
+              "step_2": "Đăng nhập ứng dụng ngân hàng và quét QR.",
+              "step_3": "Thực hiện chuyển tiền với nội dung nạp hệ thống cấp."
+            },
+            "warning": {
+              "title": "LƯU Ý",
+              "require_input": "Vui lòng điền nội dung khi chuyển khoản ngân hàng để cập nhật tiền chuyển khoản thành công.",
+              "deposit": "Quý khách có thể chuyển khoản liên ngân hàng đến bất kỳ tài khoản nào của {brandName}.",
+              "not_applied": "Khuyến mãi 100% không áp dụng khi nạp FlexPay."
+            }
+          }
+        },
+        "ewallet": {
+          "tutorial_ewallet": "Hướng dẫn quét mã QR",
+          "step_1": "Bước 1:",
+          "text_step_1": "Chọn số tiền và tạo mã QR",
+          "step_2": "Bước 2:",
+          "text_step_2": "Đăng nhập MOMO và nhập thông tin tài khoản",
+          "step_3": "Bước 3:",
+          "text_step_3": "Thực hiện chuyển tiền với nội dung nạp hệ thống cấp",
+          "note_text": "LƯU Ý",
+          "note_text_1": "Vui lòng sử dụng ứng dụng tương ứng để quét mã QR",
+          "note_text_2": "ZaloPay QR: Chỉ dùng ZaloPay để quét mã này.",
+          "note_text_3": "MoMo QR: Chỉ dùng MoMo để quét mã này.",
+          "note_text_4": "Viettel Money QR: Chỉ dùng Viettel Money để quét mã này.",
+          "note_text_5": "Nếu bạn quét mã QR bằng ứng dụng khác, tài khoản thanh toán sẽ không hợp lệ, và giao dịch có thể không thành công.",
+          "select_from": "Tài khoản {walletName}",
+          "note_text_6": "Khuyến mãi 100% không áp dụng khi nạp Ví Điện Tử."
+        }
+      },
+      "withdraw": {
+        "menus": {
+          "bank": "Ngân hàng",
+          "crypto": "Tiền ảo",
+          "phone_card": "Thẻ Cào",
+          "ewallet": "Ví Điện Tử",
+          "coin12": "Coin12"
+        },
+        "phone_card": {
+          "card_number_text": "Số lượng thẻ",
+          "note_text_1": "Vui lòng chọn đúng mệnh giá và nhà mạng, nếu chọn sai chúng tôi không chịu trách nhiệm.",
+          "success": "Tạo phiếu rút thành công.",
+          "placeholder": "Số lượng thẻ"
+        },
+        "mobile": {
+          "title": "GIAO DỊCH HIỆU QUẢ, ĐA DẠNG PHƯƠNG THỨC",
+          "description": "Xử lý nhanh chóng",
+          "one_minute": "trong 1 phút!",
+          "detail": {
+            "bank": "Tiện lợi và nhanh chóng",
+            "phone_card": "Không cần tài khoản ngân hàng",
+            "crypto": "Bảo mật và ẩn danh",
+            "coin12": "Phi tập trung và an toàn"
+          }
+        },
+        "bank": {
+          "bank_name": "Chọn ngân hàng",
+          "label_bank_name": "Ngân hàng",
+          "placeholder_bank": "Chọn ngân hàng",
+          "account_number": "Số tài khoản",
+          "account_name": "Chủ tài khoản",
+          "phone": "Xác nhận số điện thoại",
+          "phone_placeholder": "Nhập 5 số cuối số điện thoại",
+          "amount": {
+            "label": "Số tiền rút",
+            "placeholder": "Nhập số tiền rút"
+          },
+          "note": {
+            "warning": {
+              "title": "Lưu ý",
+              "content": "Chúng tôi không chịu trách nhiệm cho việc điền sai thông tin nhận tiền hoặc tài khoản bị HACK."
+            }
+          }
+        },
+        "crypto": {
+          "walletAddress": {
+            "label": "Địa chỉ ví nhận",
+            "placeholder": "Nhập địa chỉ ví"
+          },
+          "withdrawAmount": {
+            "label": "Số tiền rút (1 D = 1,000 VND)",
+            "placeholder": "Nhập số tiền (D)"
+          },
+          "phoneVerify": {
+            "label": "Xác nhận số điện thoại",
+            "placeholder": "Nhập 5 số cuối số điện thoại"
+          },
+          "withdraw": "Rút tiền",
+          "create_withdraw_success": "Tạo phiếu rút thành công.",
+          "note": {
+            "text_1": "Vui lòng chọn đúng loại tiền, số tiền và địa chỉ ví, nếu nhập sai {brandName} không chịu trách nhiệm.",
+            "text_2": "Hạn mức rút không giới hạn.",
+            "text_3": "Rút tối thiểu {amount}."
+          },
+          "rate_change": {
+            "title": "Thông báo",
+            "description": "Tỷ giá USDT đã thay đổi, vui lòng thử lại",
+            "rate": "Tỷ giá mới: ",
+            "confirm": "Xác nhận"
+          },
+          "confirm_withdraw": {
+            "title": "Xác nhận rút tiền",
+            "description": "Hãy đảm bảo rằng địa chỉ ví tiền mã hóa\n của bạn là chính xác vì hành động này\n không thể hoàn lại được",
+            "confirm": "Xác nhận"
+          }
+        },
+        "coin12": {
+          "title": "Hướng dẫn rút tiền",
+          "description": "An toàn, bảo mật, nhanh chóng, rút không giới hạn.",
+          "description_mb": "An toàn, bảo mật,\nnhanh chóng,\nrút không giới hạn.",
+          "create_wallet": "Tạo ví ngay",
+          "step_1": "1. Tạo tài khoản, nạp tiền ảo vào Coin12",
+          "step_2": "2. Bán tiền ảo sang {unit} ở Coin12"
+        }
+      },
+      "bet_history": {
+        "refresh": {
+          "title": "Lịch sử cá cược hiển thị tối đa trong 3 ngày",
+          "btn": "Làm mới bộ lọc"
+        },
+        "filter": {
+          "status": {
+            "placeholder": "Trạng thái",
+            "placeholder_mobile": "Chọn trạng thái",
+            "all": "Tất cả",
+            "win": "Thắng",
+            "half_win": "Thắng một nửa",
+            "lose": "Thua",
+            "half_lose": "Thua một nửa",
+            "draw": "Hòa",
+            "tip": "Tip",
+            "cancel": "Huỷ",
+            "reject": "Từ chối",
+            "processing": "Đang xử lý"
+          }
+        },
+        "table": {
+          "id": "ID/Thời gian",
+          "id_mobile": "ID:",
+          "product": "Trò chơi",
+          "stake": "Số tiền cược",
+          "stake_mobile": "Tổng cược:",
+          "winlost": "Thắng/Thua",
+          "turnover": "Doanh thu",
+          "commission": "Thưởng",
+          "status": "Trạng thái"
+        },
+        "status": {
+          "": "Tất cả",
+          "ALL": "Tất cả",
+          "WIN": "Thắng",
+          "WON": "Thắng",
+          "LOSE": "Thua",
+          "LOST": "Thua",
+          "HALF WON": "Thắng một nửa",
+          "HALF WIN": "Thắng một nửa",
+          "HAFT WON": "Thắng một nửa",
+          "HAFT WIN": "Thắng một nửa",
+          "HALF LOSE": "Thua một nửa",
+          "HALF LOST": "Thua một nửa",
+          "HAFT LOSE": "Thua một nửa",
+          "HAFT LOST": "Thua một nửa",
+          "DRAW": "Hòa",
+          "RUNNING": "Đang xử lý",
+          "RUNING": "Đang xử lý",
+          "PENDING": "Đang xử lý",
+          "WAITING": "Đang xử lý",
+          "PROCESSING": "Đang xử lý",
+          "OPENED": "Đang xử lý",
+          "OPEN": "Đang xử lý",
+          "BET": "Đang xử lý",
+          "CANCEL": "Huỷ",
+          "CANCELED": "Huỷ",
+          "REFUND": "Huỷ",
+          "DRAFT": "Nháp",
+          "VOID": "Huỷ",
+          "TIP": "Tip",
+          "TIPS": "Tip",
+          "REJECT": "Từ chối"
+        }
+      },
+      "p2p": {
+        "title": "giao dịch p2p",
+        "content": "Nhanh chóng, Bảo mật, Tiện lợi với thời gian xử lý 1-15 phút."
+      },
+      "promotion_applied": {
+        "title": "Khuyến mãi của bạn",
+        "available": "Các gói khuyến mãi khả dụng",
+        "view_detail": "Xem thêm",
+        "package": {
+          "title": "Gói khuyến mãi",
+          "coming": "Sắp ra mắt",
+          "available": "Khả dụng",
+          "not_available": "Không khả dụng",
+          "deposit": "Nạp tiền",
+          "welcome": "Thưởng chào<br />mừng 100%",
+          "vip_30": "Thưởng nạp<br />30% hằng tuần",
+          "vip_50": "Thưởng nạp<br />50% hằng tuần",
+          "cashback_sport": "Hoàn trả<br />thể thao",
+          "cashback_esports": "Hoàn trả<br />thể thao ảo,<br />e-sports",
+          "cashback_keno": "Hoàn trả<br />keno siêu tốc,<br />Keno vietlott",
+          "cashback_number_games": "Hoàn trả<br />number game, <br />Quay số",
+          "cashback_instant_games": "Hoàn trả<br />game nhanh",
+          "cashback_slots": "Hoàn trả<br />slots",
+          "cashback_cookfight": "Hoàn trả<br />đá gà",
+          "cashback_lottery": "Hoàn trả<br />lô đề",
+          "cashback_detail": "Hoàn trả<br />chung",
+          "cashback_title": "Hoàn trả chung",
+          "cashback": "Hoàn trả không giới hạn",
+          "currently_applying": "Đang áp dụng",
+          "time": "Thời gian áp dụng",
+          "unlimited": "Dài hạn",
+          "view_detail": "Xem chi tiết",
+          "detail": "Chi tiết",
+          "cancel": "Huỷ khuyến mãi",
+          "game": "Trò chơi",
+          "cashback_rate": "Tỷ lệ hoàn trả",
+          "sport": "Thể thao",
+          "virtual": "Thể thao ảo",
+          "sport_mobile": "Thể thao, Thể thao ảo, E-sports",
+          "keno": "Keno",
+          "keno_vietlot": "Keno vietlott",
+          "keno_mobile": "Keno siêu tốc, Keno vietlott",
+          "number_game": "Number game",
+          "number_game_sub": "Quay số",
+          "lottery": "Lô đề",
+          "quay_so": "Quay số",
+          "slot": "Slots",
+          "cock_fight": "Đá gà",
+          "game_evoplay": "Các game của EvoPlay",
+          "game_qtech": "- Qtech (thuộc game nhanh)",
+          "game_evoplay_mobile": "Các game của EvoPlay - Qtech (thuộc game nhanh)",
+          "round": "Vòng cược",
+          "current_bet": "Cược hiện tại",
+          "target_bet": "Mục tiêu",
+          "deposit_amount": "Số tiền nạp",
+          "bonus": "Thưởng",
+          "virtual_en": " E-sports",
+          "keno_txt": "Keno siêu tốc",
+          "keno_vietlot_txt": "Keno vietlott",
+          "quay_so_mobile": "Number game, Quay số",
+          "cashback_up_to": "Lên đến 1.4%"
+        },
+        "note": {
+          "title": "Lưu ý khi sử dụng khuyến mãi:",
+          "content": "Tạo phiếu nạp sẽ yêu cầu hủy chương trình khuyến mãi hiện tại. Bạn không thể hủy khuyến mãi trước khi vé cược kết thúc"
+        },
+        "cashback": {
+          "total_bet": "Tổng cược hôm nay",
+          "total_commission": "Tổng hoàn trả",
+          "today_commission": "Hoàn trả hôm nay"
+        },
+        "cancel_promotion": {
+          "title": "Huỷ khuyến mãi",
+          "description": "Khi bấm hủy khuyến mãi, tài khoản của \n Quý khách sẽ bị khấu trừ theo điều khoản \n (Bao gồm tiền khuyến mãi & tiền thắng cược).",
+          "confirm": "Đồng ý",
+          "skip": "Bỏ qua"
+        }
+      },
+      "bank_information": {
+        "title": "Quản lí ngân hàng",
+        "add_bank": "Thêm tài khoản ngân hàng",
+        "add_bank_title_prefix": "Quý khách chưa thêm",
+        "add_bank_title_highlight": "tài khoản ngân hàng",
+        "add_bank_description": "Cần thêm ngân hàng chính chủ và xác minh trước khi thực hiện Rút tiền",
+        "add_bank_description_mobile": "<span>Cần thêm ngân hàng chính chủ và xác minh <br/> trước khi thực hiện Rút tiền</span>",
+        "add_bank_button": "Thêm tài khoản",
+        "security_title": "Đảm bảo an toàn khi nạp tiền - rút tiền.",
+        "security_title_prefix": "Đảm bảo an toàn khi",
+        "security_title_highlight": "nạp tiền - rút tiền.",
+        "security_description": "Vui lòng nhập thông tin tài khoản chính xác để thực hiện giao dịch.",
+        "security_description_mobile": "<span>Vui lòng nhập thông tin tài khoản chính xác để <br/> thực hiện giao dịch.</span>",
+        "verified": "Đã xác minh",
+        "not_verified": "Chờ xác minh",
+        "choose_bank": "Ngân hàng",
+        "choose_bank_placeholder": "Chọn ngân hàng",
+        "account_holder": "Chủ tài khoản",
+        "account_holder_placeholder": "Nhập tên chủ tài khoản",
+        "account_number": "Số tài khoản",
+        "account_number_placeholder": "Nhập số tài khoản",
+        "add_bank_submit": "Thêm tài khoản"
+      },
+      "my_profile": {
+        "title": "Hồ sơ cá nhân",
+        "username": "Tên đăng nhập",
+        "display_name": "Tên hiển thị",
+        "phone": "Số điện thoại",
+        "email": "Email",
+        "placeholder_email": "Nhập địa chỉ Email",
+        "telegram": "Xác thực qua Telegram",
+        "telegram_description": "Chỉ 3 bước đơn giản",
+        "verify_now": "Xác thực ngay",
+        "update": "Cập nhật",
+        "verify": "Xác thực"
+      }
+    },
+    "SportsPage": {
+      "explosive_sports": "Thể thao bùng nổ",
+      "top_level_esports": "e-sports đỉnh cao",
+      "virtual_sports": "Thể thao ảo hấp dẫn",
+      "button_play": "Chơi ngay",
+      "section_title": "Lịch thi đấu",
+      "sub_menu": {
+        "saba": "Saba Sports",
+        "k_sports": "K-Sports",
+        "im_sports": "IM Sports",
+        "bti_sports": "BTI Sports",
+        "saba_virtual_sports": "THỂ THAO ẢO",
+        "e_sport": "E-SPORTS"
+      },
+      "banner": {
+        "title": "Sports",
+        "description": "Bóng đá đỉnh cao, đa dạng thể loại"
+      },
+      "categories": {
+        "sport": {
+          "title": "Thể thao"
+        },
+        "eSports": {
+          "title": "E-sports",
+          "saba": "Saba",
+          "im": "IM",
+          "ksport": "K-SPORTS",
+          "pragmatic": "PRAGMATIC"
+        },
+        "virtualSports": {
+          "title": "Thể thao ảo"
+        },
+        "schedule": {
+          "section_title": "Lịch thi đấu",
+          "filter": {
+            "comingSoon": "Sắp Diễn Ra",
+            "today": "Hôm Nay",
+            "tomorrow": "Ngày Mai",
+            "thisWeek": "Trong Tuần",
+            "allTournaments": "Tất cả giải đấu",
+            "select_tournament": "Chọn giải đấu",
+            "select_date": "Chọn thời điểm",
+            "schedule_tournament": "Lịch thi đấu"
+          },
+          "odds": "Tỷ lệ kèo",
+          "update_schedule": "Đang cập nhật các giải đấu",
+          "odds_handicap": "Kèo chấp FT",
+          "odds_over_under": "Tài/Xỉu FT",
+          "odds_ft": "Cược 1X2 FT",
+          "schedule_button": "Cược K-Sports",
+          "schedule_button_update": "Đang cập nhật",
+          "coming_soon": "Sắp diễn ra"
+        },
+        "hot_match": {
+          "title": "Trận cầu siêu hot",
+          "odds": "Tỷ lệ kèo"
+        }
+      }
+    },
+    "Lobby": {
+      "game_category": {
+        "all": {
+          "title": "Cổng game"
+        },
+        "game_cards": {
+          "title": "game bài"
+        },
+        "fishing": {
+          "title": "bắn cá"
+        },
+        "slots": {
+          "title": "Slots"
+        },
+        "number_game": {
+          "title": "quay số"
+        },
+        "lottery": {
+          "title": "lô đề"
+        },
+        "keno": {
+          "title": "keno"
+        },
+        "cock_fight": {
+          "title": "đá gà"
+        },
+        "nohu": {
+          "title": "nổ hũ"
+        },
+        "instant": {
+          "title": "game nhanh"
+        },
+        "jackpot": {
+          "title": "Hũ lớn sắp nổ"
+        },
+        "tables_ingames": {
+          "title": "Table Games"
+        },
+        "instant_games": {
+          "title": "Game Nhanh"
+        },
+        "favorite": {
+          "title": "Game yêu thích",
+          "empty": "Bạn chưa có game yêu thích",
+          "add_favorite": "thêm tại đây"
+        },
+        "recent": {
+          "title": "Game gần đây",
+          "empty": "Bạn chưa chơi game nào gần đây."
+        }
+      },
+      "filter": {
+        "hot": "Hot",
+        "recent": "Vừa chơi",
+        "favorite": "Yêu Thích",
+        "search_placeholder": "Tìm kiếm trò chơi",
+        "cancel": "Huỷ",
+        "provider_placeholder": "Nhà cung cấp",
+        "provider_placeholder_mobile": "NCC",
+        "provider_title": "Chọn nhà cung cấp",
+        "type_placeholder": "Chọn thể loại trò chơi"
+      },
+      "empty": {
+        "title": "Danh sách trò chơi đang cập nhật",
+        "search": "Không có kết quả tìm kiếm"
+      }
+    },
+    "Casino": {
+      "empty": {
+        "title": "Không có kết quả tìm kiếm"
+      },
+      "game_category": {
+        "all": "Tất cả",
+        "blackjack": "Blackjack",
+        "xocdia": "Xóc đĩa",
+        "roulette": "Roulette",
+        "poker": "Poker",
+        "rong_ho": "Rồng Hổ",
+        "baccarat": "Baccarat",
+        "tai_xiu": "Tài Xỉu",
+        "bau_cua": "Bầu Cua",
+        "other_games": "Other Games"
+      },
+      "description": "Sòng bài đẳng cấp quốc tế"
+    },
+    "Lottery": {
+      "title": "Lô đề",
+      "banner": {
+        "button": "Chọn số"
+      },
+      "lo_de_ba_mien": {
+        "title": "lô đề 3 miền",
+        "description": "Sáng chơi chiều trúng"
+      },
+      "lo_de_sieu_toc": {
+        "title": "lô đề siêu tốc",
+        "description": "1 phút xổ 1 lần"
+      },
+      "select_city": "Chọn miền",
+      "lo_de_md5": {
+        "title": "Lô đề MD5",
+        "description": "Thử ngay vận lớn"
+      },
+      "north": "Miền Bắc",
+      "south": "Miền Nam",
+      "central": "Miền Trung",
+      "table": {
+        "big_win": {
+          "title": "Thắng gần đây",
+          "lottery": "Xổ số",
+          "td": {
+            "user": "Người chơi",
+            "lottery": "Lô Đề",
+            "win": "Tiền Thắng"
+          }
+        },
+        "top_win": {
+          "title": "TOP XỔ SỐ trúng thưởng",
+          "next_round": "Lần quay số kế tiếp",
+          "bet_now": "Cược ngay",
+          "running": "Đang quay"
+        }
+      },
+      "next_round": {
+        "north": "Xổ số Miền Bắc",
+        "central": "Xổ số Miền Trung",
+        "south": "Xổ số Miền Nam",
+        "super_fast": "Lô đề siêu tốc",
+        "player": "người đã cược",
+        "release_hour": "Phiên xổ tiếp theo"
+      },
+      "result": {
+        "title": "Kết quả xổ số",
+        "prefix": "Xổ số",
+        "search": "Tìm kiếm",
+        "see_detail": "Xem chi tiết",
+        "search_placeholder": "Dò Số",
+        "empty_result": "Đang cập nhật kết quả xổ số",
+        "filter": {
+          "placeholder": "Nhập dò số",
+          "full_number": "Dò đầy đủ",
+          "last_2_number": "Dò 2 số",
+          "last_3_number": "Dò 3 số",
+          "north": "Miền Bắc",
+          "central": "Miền Trung",
+          "south": "Miền Nam"
+        },
+        "prize": {
+          "special": "Giải đặc biệt",
+          "1": "Giải nhất",
+          "2": "Giải nhì",
+          "3": "Giải ba",
+          "4": "Giải tư",
+          "5": "Giải năm",
+          "6": "Giải sáu",
+          "7": "Giải bảy",
+          "8": "Giải tám"
+        }
+      }
+    },
+    "AccountInfo": {
+      "VIPStatusCard": {
+        "title": "Thưởng đặc quyền thăng hạng",
+        "bonus": "Thưởng đạt hạng",
+        "lucky_money": "Lì xì năm mới",
+        "need_deposit_and_bet": "Cần nạp & cược thêm để lên",
+        "deposit": "Tổng tiền nạp",
+        "turnover": "Tổng tiền đặt cược",
+        "invite_title": "thư mời đặc quyền xứng tầm",
+        "invite": "Cần nhận lời mời từ quản trị viên để thăng hạng",
+        "royal_title": "Đẳng cấp hoàng gia"
+      },
+      "VIPConditionsCard": {
+        "title": "Điều kiện và đặc quyền VIP",
+        "title_mobile": "Đặc quyền VIP",
+        "upgrade_vip": "Thăng hạng VIP",
+        "extend_vip": "Duy trì VIP (3 tháng)",
+        "vip_privileges_title": "Quyền lợi VIP",
+        "vip_rewards_title": "Thưởng hoàn trả VIP",
+        "turnover_required_total": "Tổng cược yêu cầu để duy trì VIP",
+        "deposit_required_total": "Tổng nạp yêu cầu để duy trì VIP",
+        "vip_privileges": "Hoàn trả thêm cho các trò chơi",
+        "learn_more": "Tìm hiểu thêm",
+        "total_deposit": "Tổng phí nạp",
+        "total_bet": "Tổng phí cược",
+        "reward_rank": "Thưởng thăng hạng",
+        "new_year_bonus": "Lì xì năm mới",
+        "invite": "Lời mời",
+        "game_categories": {
+          "sports": "Thể thao, Thể thao ảo, E-sports",
+          "keno": "Keno siêu tốc, Keno vietlott",
+          "number_game": "Number Game, Quay Số",
+          "lottery": "Lô đề",
+          "slots": "Slots",
+          "cock_fighting": "Đá gà",
+          "evoplay_games": "Các game của EVOPLAY-QTECH \n(thuộc game nhanh)",
+          "evoplay_games_mobile": "Evoplay - Playtech (thuộc game nhanh)",
+          "quay_so": "Quay số"
+        }
+      },
+      "ReferralCard": {
+        "title": "Giới thiệu bạn bè",
+        "referral_link": "Liên kết giới thiệu",
+        "referral_code": "Mã giới thiệu",
+        "referral_bonus": "Phần thưởng",
+        "referral_friends": "Bạn bè",
+        "coming_soon": "Sắp ra mắt",
+        "receive": "Nhận",
+        "terms_and_conditions": "Điều Khoản & Điều Kiện",
+        "copy_btn": "Sao Chép",
+        "copied_btn": "Đã Sao Chép"
+      },
+      "PromotionApplied": {
+        "title": "Khuyến mãi áp dụng",
+        "view_detail": "Xem chi tiết",
+        "join_promotion": "Tham gia ngay",
+        "total_bet_today": "Tổng cược hôm nay",
+        "total_bet": "Tổng số tiền cược",
+        "today_cashback": "Hoàn trả hôm nay",
+        "total_cashback": "Tổng hoàn trả",
+        "cashback_rate": "Hoàn trả",
+        "deposit_amount": "Số tiền nạp",
+        "promotion_amount": "Số tiền khuyến mãi"
+      }
+    },
+    "Footer": {
+      "title": "Nhà cái {brandName} có đầy đủ các thể loại cá cược thể thao, bóng đá, game bài, live casino. {brandName} với công nghệ tiên tiến mang lại sự an toàn, trải nghiệm tuyệt vời cho người chơi.",
+      "games": {
+        "title": "Games",
+        "live_casino": "Live Casino",
+        "slots": "Slots",
+        "cock_fight": "Đá gà",
+        "table_games": "Table Games",
+        "fast_games": "Game Nhanh",
+        "fishing": "Bắn Cá",
+        "lottery": "Lô đề",
+        "turbo": "Turbo",
+        "keno": "Keno",
+        "number_games": "Number",
+        "instant_games": "Instant Games"
+      },
+      "sports": {
+        "title": "Thể Thao",
+        "saba_sport": "Saba",
+        "im_sport": "IM",
+        "virtual_sport": "Thể Thao Ảo",
+        "e_sport": "E-Sports",
+        "odds": "Tỷ lệ kèo"
+      },
+      "events": {
+        "title": "Sự Kiện Nổi Bật",
+        "vip_club": "VIP Club",
+        "promotions": "Khuyến Mãi",
+        "news": "Tin Tức",
+        "event": "Sự Kiện Nổi Bật"
+      },
+      "security": {
+        "title": "Trung Tâm Bảo Mật",
+        "about_us": "Về Chúng Tôi",
+        "help": "Trung Tâm Hỗ Trợ",
+        "terms": "Điều Khoản & Điều Kiện",
+        "privacy": "Chính Sách Bảo Mật",
+        "partner": "Đối Tác Đáng Tin Cậy",
+        "promotions": "Sự Kiện & Khuyến Mãi"
+      },
+      "tip": {
+        "title": "Mẹo & Hướng dẫn",
+        "trick": "mẹo hay",
+        "faq": "FAQ",
+        "guideline_deposit": "Hướng Dẫn nạp",
+        "guideline_withdraw": "Hướng Dẫn rút",
+        "guideline_p2p": "Hướng Dẫn P2P"
+      }
+    },
+    "PromotionApplied": {
+      "empty_banner": {
+        "title": "Siêu Khuyến Mãi",
+        "sub_title": "Ưu đãi vô vàn",
+        "btn_detail": "Xem Thêm",
+        "available": "khuyến mãi khả dụng"
+      },
+      "commission_package": {
+        "available": "khuyến mãi khả dụng",
+        "package": "Gói khuyến mãi:",
+        "time_available": "Thời gian áp dụng:",
+        "view_detail": "Xem chi tiết",
+        "cancel": "Hủy khuyến mãi",
+        "deposit_amount": "Số tiền nạp",
+        "current_bet": "Cược hiện tại: ",
+        "target_bet": "Mục tiêu: ",
+        "round": "Vòng cược:",
+        "bonus": "Thưởng",
+        "package_available": "Các gói khuyến mãi"
+      },
+      "cashback_package": {
+        "exptime": "Dài hạn"
+      },
+      "cancel_promotion": {
+        "title": "Huỷ khuyến mãi",
+        "description": "Khi bấm hủy khuyến mãi, tài khoản của \n Quý khách sẽ bị khấu trừ theo điều khoản \n (Bao gồm tiền khuyến mãi & tiền thắng cược).",
+        "confirm": "Đồng ý",
+        "skip": "Bỏ qua"
+      },
+      "cashback": {
+        "general_title": "Hoàn trả chung 1,4%",
+        "total_bet": "Tổng cược hôm nay",
+        "total_commission": "Tổng hoàn trả",
+        "today_commission": "Hoàn trả hôm nay"
+      },
+      "title": "Khuyến mãi áp dụng"
+    },
+    "Promotion": {
+      "breadcrumb": {
+        "home": "Trang chủ",
+        "promotion": "Khuyến mãi"
+      },
+      "title": "Khuyến mãi",
+      "other_promotion": "Khuyến mãi khác",
+      "deposit": "Nạp tiền",
+      "join_now": "Tham gia ngay",
+      "packages": {
+        "game": "Trò chơi",
+        "cashback_rate": "Tỷ lệ hoàn trả",
+        "welcome": "Thưởng chào \nmừng 100%",
+        "welcome_mb": "Thưởng chào\nmừng 100%",
+        "cashback_sport": "Hoàn trả \nThể thao",
+        "cashback_sport_mb": "Hoàn trả\nThể thao",
+        "cashback_esports_mb": "Hoàn trả ESports, \nthể thao ảo",
+        "cashback_keno_mb": "Hoàn trả Keno Siêu tốc,\n Keno Vietlott",
+        "cashback_slots_mb": "Hoàn trả\nSlots",
+        "cashback_number_games_mb": "Hoàn trả Quay Số, \nNumber Game",
+        "cashback_esports": "Hoàn trả thể thao ảo,\n E-Sports",
+        "cashback_keno": "Hoàn trả Keno Siêu tốc, \n Keno Vietlott",
+        "cashback_slots": "Hoàn trả \nSlots",
+        "cashback_number_games": "Hoàn trả  \n Number Game, Quay Số",
+        "cashback_instant_games": "Hoàn trả \nGame nhanh",
+        "cashback_instant_games_mb": "Hoàn trả\nGame nhanh",
+        "cashback_lottery": "Hoàn trả \nLô đề",
+        "cashback_lottery_mb": "Hoàn trả\nLô đề",
+        "cashback_cookfight": "Hoàn trả \n Đá gà",
+        "cashback_cookfight_mb": "Hoàn trả\n Đá gà",
+        "sport_mb": "Thể thao, Thể thao ảo, E-sports",
+        "keno_mb": "Keno siêu tốc, Keno vietlott",
+        "number_game_mb": "Number Game, Quay Số",
+        "lottery_mb": "Lô đề",
+        "slots_mb": "Slots",
+        "cock_fighting_mb": "Đá gà",
+        "general_cashback": "Hoàn trả chung",
+        "general_cashback_detail": "Hoàn trả chung 1.4%"
+      },
+      "cashback_table": {
+        "keno": "Keno siêu tốc,\n keno vietlott",
+        "sport": "Thể thao, Thể thao ảo, \n E-sports",
+        "number_game": "Number game, \n Quay số",
+        "lottery": "Lô Đề",
+        "slots": "Slots",
+        "cock_fight": "Đá gà",
+        "evoplay_game": "Các game của EVOPLAY-\nQTECH (thuộc Game nhanh)"
+      },
+      "available": "Khả dụng",
+      "not_available": "Không khả dụng",
+      "applying": "Đang áp dụng"
+    },
+    "VipClub": {
+      "guest_banner": {
+        "title": "Đẳng cấp hoàng gia"
+      },
+      "bonus_receive": "Thưởng đạt hạng",
+      "invite_section": {
+        "title": "Thư mời đặc quyền \n xứng tầm",
+        "content": "Cần nhận lời mời từ quản trị viên để thăng hạng",
+        "content_highlight": "VIP {level}"
+      },
+      "member_banner": {
+        "title": "Thưởng Đạt hạng",
+        "title_banner": "Thưởng đạt hạng:",
+        "game_categories": "Game áp dụng: Thể thao, Thể thao ảo, Keno siêu tốc, \nNumber Game, ...",
+        "deposit_required": "Tổng tiền nạp",
+        "turnover_required": "Tổng tiền đặt cược",
+        "deposit_required_mobile": "Tổng nạp",
+        "turnover_required_mobile": "Tổng cược",
+        "vip_privileges": "Tận hưởng vô vàn ưu đãi độc quyền",
+        "invite_title": "Thư mời đặc quyền {brandName}",
+        "invite_text": "Bạn được ứng cử trở thành hội viên VIP {vipLevel}",
+        "bonus_new_year": "Lì xì năm mới",
+        "bonus_new_year_text": "Nhận ngay {bonus} & tất cả quyền lợi của {brandName}",
+        "vip_label": "VIP {level}",
+        "vip_label_0": "Phổ Thông",
+        "next_vip_title": "Cấp Vip kế tiếp",
+        "highest_vip_title": "Đạt hạng cao nhất",
+        "highest_vip_content": "Chúc mừng bạn đã thăng hạng cao nhất"
+      },
+      "table_mobile": {
+        "invite": "Lời mời",
+        "privileges": "Đặc quyền VIP",
+        "level_up": {
+          "title": "Thăng hạng VIP",
+          "recharge": "Tổng Phí Nạp",
+          "turnover": "Tổng Phí Cược"
+        },
+        "maintain_vip": {
+          "title": "Duy trì VIP (3 tháng)",
+          "recharge": "Tổng Phí Nạp",
+          "turnover": "Tổng Phí Cược"
+        },
+        "reward": {
+          "title": "Quyền lợi VIP",
+          "level_up": "Thưởng thăng hạng",
+          "new_year_bonus": "Lì xì năm mới"
+        },
+        "return": {
+          "title": "Thưởng hoàn trả VIP",
+          "sport": "Thể thao, Thể thao ảo, E-sports",
+          "keno": "Keno siêu tốc, Keno vietlott",
+          "number_game": "Number game, Quay số",
+          "lottery": "Lô đề",
+          "slots": "Slots",
+          "cock_fighting": "Đá gà",
+          "other": "Evoplay - Playtech (thuộc game nhanh)"
+        }
+      },
+      "table": {
+        "privileges": "Đặc quyền VIP",
+        "privileges_rank": "Đặc quyền xếp hạng",
+        "recharge_required": "Tổng nạp yêu cầu ({currency})",
+        "recharge_extend": "Tổng nạp duy trì VIP 3 tháng ({currency})",
+        "turnover_required": "Tổng cược yêu cầu ({currency})",
+        "turnover_extend": "Tổng cược duy trì VIP 3 tháng ({currency})",
+        "bonus_rank": "Thưởng đạt hạng ({currency})",
+        "new_year_bonus": "Lì xì năm mới ({currency})",
+        "cashback_reward_sport": "Hoàn trả: Thể thao,  \n Thể Thao Ảo, E-Sports",
+        "cashback_reward_keno": "Hoàn trả: Keno Siêu Tốc, Keno Vietlott",
+        "cashback_reward_chickenfight": "Hoàn trả Đá Gà",
+        "cashback_reward_slots": "Hoàn trả Slots",
+        "cashback_reward_numbergame": "Hoàn trả Number Game",
+        "cashback_reward_lottery": "Hoàn trả Lô Đề",
+        "cashback_reward_lucky_number": "Hoàntrả Quay Số",
+        "cashback_reward_evoplay_game": "Hoàn trả Các game \n của EVOPLAY-QTECH (Game nhanh)",
+        "invite": "Lời mời"
+      },
+      "terms": {
+        "title": "Điều khoản & Điều kiện",
+        "term_1": "1. Khách hàng cần phải đạt đủ 02 điều kiện Tổng nạp và Tổng cược để được thăng hạng VIP.",
+        "term_2": "2. Khi đạt được tổng nạp và tổng cược theo yêu cầu, thành viên sẽ được xét duyệt thăng cấp VIP trong vòng 24h.",
+        "term_3": "3. Khi đã đạt được một cấp VIP nhất định, thành viên sẽ được nhận đặc quyền của VIP đó trong vòng 3 tháng. Nếu không đáp ứng được yêu cầu tổng nạp duy trì và tổng cược duy trì trong vòng 3 tháng tiếp theo, vào ngày đầu tiên của tháng thứ 4 cấp VIP của thành viên sẽ được xét duyệt lại dựa trên Tổng nạp và Tổng cược của thành viên trong 3 tháng vừa qua và giáng 1 cấp.",
+        "term_4": "4. Thành viên chỉ nhận được thưởng thăng hạng VIP khi có sự thay đổi hạng VIP.",
+        "term_5": "5. VIP8 và VIP9 là 2 cấp VIP đặc biệt chỉ có thể nhận được theo lời mời từ bộ phận chăm sóc VIP của công ty.",
+        "term_6": "6. Công ty có quyền tuyệt đối hạ hoặc hủy đặc quyền VIP của thành viên vào bất kỳ thời điểm nào mà không cần báo trước nếu phát hiện bất kỳ hành vi gian lận, lạm dụng khuyến mãi nào từ thành viên.",
+        "term_7": "7. Tất cả các tặng thưởng từ chương trình VIP như Thưởng thăng hạng, Quà sinh nhật, Lì xì năm mới,...sẽ cộng trực tiếp vào số dư khả dụng của người dùng và không cần hoàn thành vòng cược.",
+        "term_8": "8. Điều khoản và điều kiện chung của {brandName} được áp dụng."
+      },
+      "faqs": {
+        "title": "Câu hỏi thường gặp",
+        "faq_1": {
+          "title": "Làm sao để trở thành thành viên VIP của {brandName}",
+          "content": "Bạn cần phải đạt tối thiểu 50,000,000 VND tổng nạp và 250,000,000 VND tổng cược để được thăng hạng VIP1."
+        },
+        "faq_2": {
+          "title": "Có bao nhiêu hạng VIP trong chương trình này?",
+          "content": "Có 9 hạng từ VIP1 đến VIP9."
+        },
+        "faq_3": {
+          "title": "Làm sao để được thăng lên hạng VIP cao hơn?",
+          "content": "Bạn cần tích lũy đủ Tổng nạp và Tổng cược yêu cầu. Ví dụ: Bạn đang đạt VIP1 với Tổng nạp 50,000,000 VND và Tổng cược 250,000,000 VND, bạn cần phải tích lũy thêm 100,000,000 VND Tổng nạp và 500,000,000 VND Tổng cược để được thăng hạng lên VIP2."
+        },
+        "faq_4": {
+          "title": "Đặc quyền VIP có hiệu lực trong bao lâu?",
+          "content": "Sau khi được thăng hạng VIP, bạn sẽ được hưởng đặc quyền VIP trong vòng 3 tháng."
+        },
+        "faq_5": {
+          "title": "Làm sao để được duy trì đặc quyền VIP?",
+          "content": "Để duy trì được đặc quyền VIP, bạn cần tích lũy đủ Tổng nạp duy trì và Tổng cược duy trì trong vòng 3 tháng tiếp theo kể từ khi được thăng hạng VIP. Ví dụ: Nếu bạn được thăng hạng VIP2 vào ngày 01/01/2024, Tổng nạp duy trì cần tích lũy là 100,000,000 VND và Tổng cược duy trì cần tích lũy là 300,000,000 VND trong vòng 3 tháng tới. Nếu bạn không đạt điều kiện duy trì, hạng VIP của bạn sẽ được xét duyệt lại vào ngày 01/04/2024 và trao hạng tương ứng dựa trên Tổng nạp và Tổng cược của bạn trong 3 tháng trước đó."
+        },
+        "faq_6": {
+          "title": "Thành viên VIP có phải tốn phí thường niên không?",
+          "content": "Không. Đặc quyền VIP được {brandName} đưa ra nhằm tri ân cho toàn bộ khách hàng đã tin tưởng {brandName}."
+        }
+      },
+      "auth_banner": {
+        "title": "Thưởng Đạt hạng",
+        "game_categories": "Game áp dụng: Thể thao, Thể thao ảo, Keno siêu tốc, \nNumber Game, ...",
+        "deposit_required": "Tổng tiền nạp",
+        "turnover_required": "Tổng tiền đặt cược",
+        "deposit_required_mobile": "Tổng nạp",
+        "turnover_required_mobile": "Tổng cược",
+        "vip_privileges": "Tận hưởng vô vàn ưu đãi độc quyền",
+        "invite_title": "Thư mời đặc quyền {brandName}",
+        "invite_text": "Bạn được ứng cử trở thành hội viên VIP {vipLevel}",
+        "bonus_new_year": "Lì xì năm mới",
+        "bonus_new_year_text": "Nhận ngay {bonus} & tất cả quyền lợi của {brandName}",
+        "vip_label": "VIP {level}",
+        "vip_label_0": "Phổ Thông"
+      }
+    }
+  },
+  "Validation": {
+    "register": {
+      "username": {
+        "required": "Vui lòng nhập tên đăng nhập.",
+        "min": "Không được ít hơn 6 ký tự.",
+        "max": "Không được nhiều hơn 29 ký tự.",
+        "regex": "Chỉ được chứa chữ cái thường hoặc số."
+      },
+      "password": {
+        "required": "Vui lòng nhập mật khẩu.",
+        "min": "Không được ít hơn {min} ký tự.",
+        "max": "Không được nhiều hơn {max} ký tự.",
+        "regex": "Chỉ được chứa chữ cái thường hoặc số."
+      },
+      "phone": {
+        "required": "Vui lòng nhập số điện thoại.",
+        "regex": "Chỉ được chứa số.",
+        "min": "Không được ít hơn 10 số.",
+        "max": "Không được nhiều hơn 12 số.",
+        "start": "Hãy nhập số bắt đầu bằng số 0."
+      },
+      "referral_code": {
+        "code_invalid": "Mã giới thiệu không hợp lệ. Vui lòng liên hệ với bộ phận hỗ trợ."
+      }
+    },
+    "login": {
+      "username": {
+        "required": "Vui lòng nhập tên đăng nhập.",
+        "min": "Không được ít hơn {min} ký tự.",
+        "max": "Không được nhiều hơn {max} ký tự.",
+        "regex": "Chỉ được chứa chữ cái thường hoặc số."
+      },
+      "password": {
+        "required": "Vui lòng nhập mật khẩu.",
+        "min": "Không được ít hơn {min} ký tự.",
+        "max": "Không được nhiều hơn {max} ký tự."
+      }
+    },
+    "forgotPassword": {
+      "email": {
+        "required": "Vui lòng nhập email.",
+        "invalid": "Email không hợp lệ.",
+        "max": "Email không được nhiều hơn 50 ký tự."
+      },
+      "telegram": {
+        "required": "Vui lòng nhập tên đăng nhập.",
+        "invalid": "Chỉ được chứa chữ cái thường hoặc số.",
+        "min": "Không được ít hơn {min} ký tự.",
+        "max": "Không được nhiều hơn {max} ký tự."
+      },
+      "password": {
+        "required": "Vui lòng nhập mật khẩu mới.",
+        "min": "Không được ít hơn 6 ký tự.",
+        "max": "Không được nhiều hơn 32 ký tự.",
+        "regex": "Chỉ được chứa chữ cái thường hoặc số."
+      },
+      "confirmPassword": {
+        "required": "Vui lòng nhập lại mật khẩu mới.",
+        "min": "Không được ít hơn 6 ký tự.",
+        "max": "Không được nhiều hơn 32 ký tự.",
+        "regex": "Chỉ được chứa chữ cái thường hoặc số.",
+        "match": "Mật khẩu mới không trùng nhau."
+      },
+      "otp": {
+        "required": "Vui lòng nhập mã OTP.",
+        "length": "Không được ít hơn 6 số."
+      }
+    },
+    "changePassword": {
+      "password": {
+        "required": "Vui lòng nhập mật khẩu hiện tại.",
+        "min": "Không được ít hơn {min} ký tự.",
+        "max": "Không được nhiều hơn {max} ký tự.",
+        "regex": "Mật khẩu chỉ được chứa chữ cái và số"
+      },
+      "newPassword": {
+        "required": "Vui lòng nhập mật khẩu mới.",
+        "min": "Không được ít hơn {min} ký tự.",
+        "max": "Không được nhiều hơn {max} ký tự.",
+        "regex": "Mật khẩu chỉ được chứa chữ cái và số",
+        "match_new": "Mật khẩu mới không được trùng với mật khẩu hiện tại."
+      },
+      "confirmPassword": {
+        "required": "Vui lòng nhập xác nhận mật khẩu mới.",
+        "min": "Không được ít hơn {min} ký tự.",
+        "max": "Không được nhiều hơn {max} ký tự.",
+        "regex": "Mật khẩu chỉ được chứa chữ cái và số.",
+        "match_confirm": "Mật khẩu mới không trùng nhau."
+      }
+    },
+    "myProfile": {
+      "fullName": {
+        "required": "Vui lòng nhập tên hiển thị.",
+        "min": "Không được ít hơn {min} ký tự.",
+        "max": "Không được nhiều hơn {max} ký tự.",
+        "regex": "Chỉ được chứa chữ cái thường hoặc số.",
+        "same_as_username": "Tên hiển thị trùng tên đăng nhập."
+      },
+      "email": {
+        "required": "Vui lòng nhập Email.",
+        "invalid": "Email không hợp lệ.",
+        "max": "Email không được nhiều hơn {max} ký tự."
+      },
+      "otp": {
+        "required": "Vui lòng nhập OTP.",
+        "min": "Mã OTP phải có {min} số.",
+        "number_only": "Mã OTP chỉ được chứa số."
+      }
+    },
+    "addBank": {
+      "bankCode": {
+        "required": "Vui lòng chọn ngân hàng."
+      },
+      "bankAccountName": {
+        "required": "Vui lòng nhập chủ tài khoản.",
+        "min": "Tên tài khoản phải có ít nhất {min} ký tự.",
+        "max": "Không được nhiều hơn {max} ký tự.",
+        "regex": "Tên chủ tài khoản không bao gồm số, các ký tự đặc biệt và dấu.",
+        "doubleSpace": "Tên chủ tài khoản không hợp lệ."
+      },
+      "bankAccountNumber": {
+        "required": "Vui lòng nhập số tài khoản.",
+        "min": " Không được ít hơn {min} số.",
+        "max": "Không được nhiều hơn {max} số.",
+        "regex": "Số tài khoản chỉ được chứa chữ số."
+      }
+    },
+    "deposit": {
+      "amount": {
+        "required": "Vui lòng nhập số tiền nạp.",
+        "min": "Số tiền tối thiểu là {amount}.",
+        "max": "Số tiền tối đa là {amount}.",
+        "limit": "Số tiền phải từ {min} đến {max}.",
+        "invalid": "Số tiền không hợp lệ."
+      },
+      "bank_code": {
+        "required": "Vui lòng chọn ngân hàng."
+      },
+      "package": {
+        "required": "Vui lòng chọn gói khuyến mãi."
+      },
+      "PhoneCard": {
+        "card_code": {
+          "required": "Vui lòng nhập mã thẻ.",
+          "min": "Không được ít hơn {min} số.",
+          "max": "Không được nhiều hơn {max} số."
+        },
+        "card_serial": {
+          "required": "Vui lòng nhập số series.",
+          "min": "Không được ít hơn {min} số.",
+          "max": "Không được nhiều hơn {max} số."
+        }
+      }
+    },
+    "withdraw": {
+      "phone_card": {
+        "required": "Bạn chưa nhập số lượng thẻ.",
+        "zero": "Số lượng thẻ không được nhỏ hơn {min}.",
+        "limit": "Số lượng thẻ không được nhiều hơn {max}.",
+        "balance": "Tài khoản không đủ tiền để thực hiện lệnh rút."
+      },
+      "amount": {
+        "required": "Vui lòng nhập số tiền rút.",
+        "min": "Số tiền rút tối thiểu là {amount}.",
+        "max": "Số tiền rút tối đa là {amount}.",
+        "limit": "Số tiền phải từ {min} đến {max}.",
+        "invalid": "Số tiền rút không hợp lệ.",
+        "enough": "Tài khoản không đủ tiền để thực hiện lệnh rút."
+      },
+      "bank": {
+        "required": "Vui lòng chọn ngân hàng."
+      },
+      "phone_input": {
+        "required": "Vui lòng nhập 5 số cuối số điện thoại.",
+        "min": "Không được ít hơn {min} số."
+      },
+      "walletAddress": {
+        "required": "Vui lòng nhập địa chỉ ví nhận.",
+        "regex": "Địa chỉ ví không hợp lệ."
+      },
+      "phoneVerify": {
+        "required": "Vui lòng nhập 5 số cuối số điện thoại của bạn.",
+        "length": "Không được ít hơn 5 số."
+      },
+      "withdrawAmount": {
+        "required": "Vui lòng nhập số tiền rút.",
+        "invalid": "Số tiền rút không hợp lệ.",
+        "min": "Số tiền rút tối thiểu là {amount}.",
+        "not_enough": "Tài khoản không đủ tiền để thực hiện lệnh rút."
+      }
+    }
+  },
+  "Modals": {
+    "SearchModal": {
+      "title": "TÌM KIẾM",
+      "placeholder": "Tìm kiếm trò chơi",
+      "recommended_games": "ĐỀ XUẤT DÀNH CHO BẠN",
+      "search_condition": "Vui lòng nhập ít nhất 2 ký tự để bắt đầu tìm kiếm."
+    },
+    "RegisterModal": {
+      "title": "Đăng Ký",
+      "description": "Hoàn thành thông tin dưới đây để tạo tài khoản mới",
+      "username": "Tên đăng nhập",
+      "username_placeholder": "Nhập tên đăng nhập",
+      "password": "Mật khẩu",
+      "password_placeholder": "Nhập mật khẩu",
+      "phone": "Số điện thoại",
+      "phone_placeholder": "Nhập số điện thoại",
+      "referral_code": "Nhập mã giới thiệu (Không bắt buộc)",
+      "referral_code_placeholder": "Nhập mã giới thiệu",
+      "agreement": "Bằng cách nhấp vào \"Đăng Ký\", bạn đồng ý với",
+      "terms_of_service": "Điều khoản & điều kiện",
+      "of_site": "của {brandName}",
+      "register": "Đăng Ký",
+      "have_account": "Đã có tài khoản? ",
+      "login": "Đăng Nhập"
+    },
+    "CancelPromotionModal": {
+      "title": "Huỷ khuyến mãi",
+      "description": "Khi bấm hủy khuyến mãi, tài khoản của Quý\nkhách sẽ bị khấu trừ theo điều khoản\n(Bao gồm tiền khuyến mãi & tiền thắng cược).",
+      "confirm": "Đồng ý",
+      "skip": "Bỏ qua"
+    },
+    "MaintainGameModal": {
+      "title": "Trò chơi đang bảo trì",
+      "description": "Vui lòng thử lại sau. Cảm ơn bạn rất nhiều!",
+      "confirm": "Tôi hiểu rồi"
+    },
+    "DenyGameModal": {
+      "title": "Gặp vấn đề khi chơi game",
+      "description": "Gói khuyến mãi bạn đang sử dụng",
+      "description_2": "không thể chơi trò chơi này.",
+      "confirm": "Xác nhận"
+    },
+    "ErrorApiModal": {
+      "title": "Thông báo hệ thống",
+      "confirm": "Xác nhận"
+    },
+    "UsePromotionModal": {
+      "title": "Gặp vấn đề khi chơi game",
+      "description": "Gói khuyến mãi bạn đang sử dụng",
+      "description_2": "không thể chơi trò chơi này.",
+      "confirm": "Xác nhận"
+    },
+    "IncompleteRegisterModal": {
+      "title": "Đăng ký chưa hoàn tất!",
+      "description": "Đăng ký hoàn toàn miễn phí.",
+      "confirm_description": "Bạn có chắc chắn muốn bỏ qua không?",
+      "continue": "Tiếp tục",
+      "cancel": "Đăng ký sau"
+    },
+    "LoginModal": {
+      "title": "Đăng Nhập",
+      "description": "Chúc quý khách hàng may mắn",
+      "username": "Tên đăng nhập",
+      "username_placeholder": "Nhập tên đăng nhập",
+      "password": "Mật khẩu",
+      "password_placeholder": "Nhập mật khẩu",
+      "login": "Đăng Nhập",
+      "forgot_password": "Quên mật khẩu?",
+      "no_account": "Bạn chưa có tài khoản? ",
+      "register": "Đăng ký ngay"
+    },
+    "ForgotPasswordModal": {
+      "title": "Khôi phục mật khẩu",
+      "reset_password_title": "Tạo mật khẩu mới",
+      "description": "Chọn phương thức và nhập thông tin bạn đã đăng ký để lấy lại mật khẩu",
+      "email": "Email",
+      "email_placeholder": "Nhập địa chỉ email",
+      "telegram": "Telegram",
+      "telegram_placeholder": "Nhập tên đăng nhập của bạn",
+      "telegram_label": "Tên đăng nhập",
+      "contact": "Bạn gặp vấn đề về tài khoản, liên hệ",
+      "support": "Hỗ trợ 24/7",
+      "telegram_bot": "BOT Telegram",
+      "telegram_support": "Chỉ dành cho Khách hàng đã thực hiện định danh Telegram.",
+      "telegram_contact_1": "Chat /start với",
+      "telegram_contact_2": "hoặc liên hệ",
+      "telegram_contact_3": "nếu bạn không nhận được OTP.",
+      "send": "Gửi",
+      "send_otp": "Gửi OTP",
+      "otp": "OTP",
+      "reset_password": "Đổi mật khẩu",
+      "otp_placeholder": "Nhập mã OTP gồm 6 số",
+      "password": "Mật khẩu mới",
+      "password_placeholder": "Nhập mật khẩu mới",
+      "confirm_password": "Xác nhận mật khẩu",
+      "confirm_password_placeholder": "Nhập lại mật khẩu mới",
+      "back": "Trở lại ",
+      "login": "Đăng Nhập"
+    },
+    "LogoutModal": {
+      "title": "Đăng xuất?",
+      "description": "Bạn chắc chắn muốn thoát không?",
+      "confirm": "Đăng xuất",
+      "cancel": "Ở lại"
+    },
+    "VerifyEmailModal": {
+      "title": "Xác thực email",
+      "description": "Để bảo mật tài khoản, vui lòng hoàn tất yêu cầu xác thực sau.",
+      "otp_placeholder": "Mã OTP gồm 6 chữ số",
+      "send_otp": "Gửi OTP",
+      "verify": "Xác thực",
+      "otp_sent": "OTP đã được gửi. Vui lòng kiểm tra email để nhận thông tin cập nhật.",
+      "desc_otp": "Nhập mã OTP được gửi đến email của bạn.",
+      "resend_otp": "Gửi lại"
+    },
+    "VerifyTelegramModal": {
+      "telegram": "Telegram",
+      "title": "Xác thực telegram",
+      "description": "Vui lòng xác thực Telegram theo các bước dưới:",
+      "description_mb": "Vui lòng xác thực Telegram theo các bước dưới:",
+      "step_1": "Bước 1",
+      "step_1_content": "Cài đặt và tạo tài khoản",
+      "step_2": "Bước 2",
+      "step_2_content": "Lấy mã kích hoạt",
+      "step_2_link": "Tại đây",
+      "step_3": "Bước 3",
+      "step_3_content": "Nhập mã OTP tại đây",
+      "verify": "Xác thực",
+      "success_note": "Sau khi xác thực thành công, quý khách có thể khôi phục mật khẩu bằng Telegram hoặc nhận giftcode khuyến mãi."
+    },
+    "DepositPromotion": {
+      "title": "Thông báo hệ thống",
+      "description": "Tạo phiếu nạp sẽ yêu cầu hủy chương trình\nkhuyến mãi hiện tại. Bạn có muốn tiếp tục nạp?",
+      "confirm": "Đồng ý",
+      "cancel": "Bỏ qua"
+    },
+    "CancelDepositModal": {
+      "title": "HUỶ MÃ GIAO DỊCH",
+      "ticket": "Phiếu",
+      "description_codepay": "sẽ bị hủy, bạn có muốn tiếp tục?",
+      "description_flexpay": "Giao dịch chưa hoàn thành,\nxác nhận hủy và tạo phiếu mới?",
+      "confirm": "Đồng ý",
+      "cancel": "Bỏ Qua"
+    },
+    "ErrorCodepayModal": {
+      "title": "Thông báo",
+      "description": "Bạn đã tạo quá nhiều lệnh, vui lòng thử lại sau.",
+      "confirm": "Xác nhận"
+    },
+    "AddBankModal": {
+      "not_found": "Không tìm thấy ngân hàng",
+      "title": "THÊM TÀI KHOẢN NGÂN HÀNG",
+      "description": "Vui lòng thêm tài khoản ngân hàng để nạp hoặc rút tiền",
+      "bank_select": "Ngân hàng",
+      "bank_select_placeholder": "Chọn ngân hàng",
+      "account_holder": "Chủ tài khoản",
+      "account_holder_placeholder": "Nhập tên chủ tài khoản Viết HOA, không dấu",
+      "account_number": "Số tài khoản",
+      "account_number_placeholder": "Nhập số tài khoản",
+      "submit": "Thêm tài khoản",
+      "error_select_bank": "Vui lòng chọn ngân hàng",
+      "success": "Tạo tài khoản ngân hàng thành công.",
+      "error": "Có lỗi xảy ra",
+      "add_bank_button": "Thêm tài khoản",
+      "not_verified": "Chờ xác minh",
+      "verified": "Đã xác minh"
+    },
+    "ErrorFavoriteGameLimitModal": {
+      "title": "Thông báo từ hệ thống",
+      "description": "Bạn đã đạt giới hạn 30 games yêu thích.",
+      "confirm": "Đồng ý",
+      "cancel": "Bỏ qua"
+    },
+    "MaintainBank": {
+      "title": "Thông báo",
+      "description": "Ngân hàng {oldBank} đang bảo trì. Quý khách vui lòng sử dụng thông tin để chuyển liên ngân hàng qua {newBank}.",
+      "confirm": "Xác nhận"
+    }
+  },
+  "Toast": {
+    "common": {
+      "error": "Có lỗi xảy ra. Vui lòng thử lại."
+    },
+    "register": {
+      "success": "Tài khoản của bạn đã được tạo thành công.",
+      "error": "Chúng tôi đang gặp sự cố, hãy thử lại sau."
+    },
+    "login": {
+      "success": "Bạn đã đăng nhập thành công!",
+      "error": "Tên đăng nhập hoặc mật khẩu không chính xác."
+    },
+    "forgotPassword": {
+      "send_email_success": "Email đã được gửi, vui lòng kiểm tra hộp thư để cập nhật thông tin.",
+      "send_telegram_success": "Mã OTP đã được gửi về BOT Telegram.",
+      "reset_password_success": "Cập nhật mật khẩu thành công."
+    },
+    "logout": {
+      "success": "Đăng xuất thành công!",
+      "error": "Đăng xuất không thành công!"
+    },
+    "changePassword": {
+      "success": "Cập nhật mật khẩu thành công.",
+      "error": "Đã có lỗi xảy ra! Vui lòng thử lại sau."
+    },
+    "myProfile": {
+      "update_success": "Cập nhật thành công",
+      "update_error": "Cập nhật thất bại",
+      "send_otp_success": "OTP đã được gửi. Vui lòng kiểm tra email để nhận thông tin cập nhật",
+      "send_otp_error": "OTP không hợp lệ"
+    },
+    "deposit": {
+      "create_success": "Tạo phiếu nạp thành công.",
+      "cancel_promotion_success": "Hủy khuyến mãi thành công.",
+      "create_error": "Tạo phiếu nạp thất bại."
+    },
+    "withdraw": {
+      "success": "Tạo phiếu rút thành công.",
+      "error": "Tạo phiếu rút thất bại."
+    }
+  }
+}

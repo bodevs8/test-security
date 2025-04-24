@@ -1,0 +1,34 @@
+.crypto-note {
+  background-color: #fafafa;
+  transition: all 0.3s ease;
+
+  @media screen and (min-width: 1024px) {
+    &:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+  }
+
+  &.binance {
+    background: url('/images/box-note/crypto/binance-bg.webp') no-repeat top
+      right;
+    background-size: 100%;
+  }
+
+  &.remitano {
+    background: url('/images/box-note/crypto/remitano-bg.webp') no-repeat top
+      right;
+    background-size: 100%;
+  }
+
+  &.huobi {
+    background: url('/images/box-note/crypto/huobi-bg.webp') no-repeat top right;
+    background-size: 100%;
+  }
+
+  &.coin12 {
+    background: url('/images/box-note/crypto/coin12-bg.webp') no-repeat top
+      right;
+    background-size: 100%;
+  }
+}

@@ -1,0 +1,1 @@
+export { RecentWins } from './RecentWins';

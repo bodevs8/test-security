@@ -1,0 +1,124 @@
+{
+  "editor.tabSize": 2,
+  "editor.detectIndentation": false,
+  "search.exclude": {
+    "package-lock.json": true
+  },
+
+  // TypeScript
+  "typescript.tsdk": "node_modules/typescript/lib", // Use the workspace version of TypeScript
+  "typescript.enablePromptUseWorkspaceTsdk": true, // For security reasons it's require that users opt into using the workspace version of typescript
+  "typescript.preferences.autoImportFileExcludePatterns": [
+    // useRouter should be imported from `next/navigation` instead of `next/router`
+    "next/router.d.ts",
+    "next/dist/client/router.d.ts",
+    // give priority for Link to next/link instead of lucide-react
+    "lucide-react"
+  ],
+  "typescript.preferences.preferTypeOnlyAutoImports": true, // Prefer type-only imports
+
+  // Vitest
+  "testing.automaticallyOpenTestResults": "neverOpen", // Don't open the test results automatically
+
+  // I18n
+  "i18n-ally.localesPaths": ["src/locales"],
+  "i18n-ally.keystyle": "nested",
+
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  // Auto fix with ESLint on save
+  "editor.codeActionsOnSave": [
+    "source.addMissingImports",
+    "source.fixAll.eslint"
+  ],
+
+  // Enable eslint for all supported languages
+  "eslint.format.enable": true,
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact",
+    "vue",
+    "html",
+    "markdown",
+    "json",
+    "jsonc",
+    "yaml",
+    "toml",
+    "xml",
+    "gql",
+    "graphql",
+    "astro",
+    "css",
+    "less",
+    "scss",
+    "pcss",
+    "postcss",
+    "github-actions-workflow"
+  ],
+  "tailwindCSS.includeLanguages": {
+    "html": "html",
+    "javascript": "javascript",
+    "css": "css",
+    "typescriptreact": "html"
+  },
+  "editor.quickSuggestions": {
+    "strings": true
+  },
+  "files.associations": {
+    "*.css": "tailwindcss"
+  },
+  "cSpell.language": "en,vi",
+  "cSpell.words": [
+    "sonner",
+    "turbopack",
+    "animejs",
+    "unplugin",
+    "sungame",
+    "Vgmn",
+    "Vgmn",
+    "txgo",
+    "xocdia",
+    "techplay",
+    "pgsoft",
+    "im",
+    "jdb",
+    "netent",
+    "askmelotto",
+    "askmebet",
+    "go88",
+    "evo",
+    "redtiger",
+    "qtech",
+    "microgaming",
+    "ingames",
+    "nohu",
+    "MILLI",
+    "hotmatch",
+    "codepay",
+    "huong",
+    "huongdan",
+    "nhanh",
+    "khuyen",
+    "Milicast",
+    "automute",
+    "jwtoken",
+    "faststart",
+    "rtmp",
+    "xhttp",
+    "balancedadaptive",
+    "ewallet",
+    "FLEXPAY",
+    "Momo",
+    "Zalo",
+    "Viettel",
+    "ONEVNPAY",
+    "GOPAY",
+    "momos",
+    "Embla",
+    "lega",
+    "autoplay",
+    "cmdk"
+  ]
+}

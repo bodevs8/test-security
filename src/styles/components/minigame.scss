@@ -1,0 +1,80 @@
+#draggableButton {
+  width: 80px;
+
+  @media (min-width: 768px) {
+    width: 90px;
+    height: 112px;
+  }
+
+  &:active {
+    cursor: grabbing;
+  }
+
+  .ping {
+    animation: ping 5s cubic-bezier(0.15, 0.55, 0.15, 0.5) infinite;
+  }
+
+  .mini {
+    height: 30%;
+    position: absolute;
+    top: 35%;
+    left: -5%;
+  }
+
+  .game-text {
+    height: 22%;
+    position: absolute;
+    top: 60%;
+    left: 5%;
+  }
+
+  .minigame-btn-close {
+    height: 20%;
+    z-index: 200;
+    position: absolute;
+    aspect-ratio: 1;
+    top: 4%;
+    right: 4%;
+  }
+
+  img {
+    object-fit: contain;
+  }
+}
+@keyframes ping {
+  0% {
+    transform: scale(1);
+  }
+
+  12.5% {
+    transform: scale(1.2);
+  }
+
+  25% {
+    transform: scale(1);
+  }
+
+  27.5% {
+    transform: scale(1);
+  }
+
+  50% {
+    transform: scale(1);
+  }
+
+  62.5% {
+    transform: scale(1);
+  }
+
+  75% {
+    transform: scale(1);
+  }
+
+  87.5% {
+    transform: scale(1);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}

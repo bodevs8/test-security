@@ -1,0 +1,158 @@
+.bet-history-table {
+  table {
+    thead {
+      th {
+        &:nth-child(3),
+        &:nth-child(4),
+        &:nth-child(5),
+        &:nth-child(6) {
+          padding-left: 12px;
+          min-width: 100px;
+        }
+
+        &:nth-child(2) {
+          max-width: 160px;
+        }
+
+        &:last-child {
+          padding-left: 12px;
+        }
+      }
+    }
+
+    tr {
+      td {
+        &:first-child {
+          width: 124px;
+        }
+
+        &:nth-child(2) {
+          max-width: 160px;
+        }
+
+        &:nth-child(3),
+        &:nth-child(4),
+        &:nth-child(5),
+        &:nth-child(6) {
+          padding-left: 12px;
+          min-width: 100px;
+        }
+
+        &:last-child {
+          padding-left: 12px;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1800px) {
+  .bet-history-table {
+    table {
+      thead {
+        th {
+          &:nth-child(4) {
+            padding-left: 16px;
+          }
+        }
+      }
+      tr {
+        td {
+          &:nth-child(4) {
+            padding-left: 16px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .bet-history-table {
+    table {
+      thead {
+        th {
+          &:nth-child(4) {
+            padding-left: 16px;
+            width: 120px;
+          }
+        }
+      }
+      tr {
+        td {
+          &:nth-child(4) {
+            padding-left: 16px;
+          }
+        }
+      }
+    }
+  }
+}
+
+.bet-history {
+  .fixed-footer {
+    box-shadow:
+      0px 4px 47.7px 0px #0719720d,
+      0px 2px 12px 0px #07197212;
+  }
+
+  .status-col {
+    @media screen and (max-width: 1200px) {
+      white-space: nowrap;
+    }
+
+    &.draw,
+    &.running,
+    &.runing,
+    &.waiting,
+    &.pending,
+    &.processing,
+    &.opened,
+    &.open,
+    &.bet {
+      color: var(--color-blue-500);
+    }
+
+    &.reject,
+    &.void,
+    &.draft,
+    &.refund,
+    &.cancel,
+    &.canceled {
+      color: var(--color-dark-200);
+    }
+
+    &.lose,
+    &.lost,
+    &.half_lose,
+    &.half_lost,
+    &.haft_lose,
+    &.haft_lost {
+      color: var(--color-red-500);
+    }
+
+    &.win,
+    &.won,
+    &.half_win,
+    &.half_won,
+    &.haft_win,
+    &.haft_won {
+      color: var(--color-green-500);
+    }
+
+    &.tip,
+    &.tips {
+      color: var(--color-money);
+    }
+  }
+}
+
+.bet-amount-mobile {
+  background:
+    linear-gradient(0deg, rgba(25, 36, 57, 0.5), rgba(25, 36, 57, 0.5)),
+    radial-gradient(
+      52.24% 155.34% at 47.76% 99.32%,
+      rgba(24, 57, 96, 0.4) 0%,
+      rgba(24, 37, 62, 0.2) 100%
+    );
+}
