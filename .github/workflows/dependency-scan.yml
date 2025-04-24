@@ -3,6 +3,9 @@ on:
   push:
     branches:
       - main
+permissions:
+  contents: read # Quyền tối thiểu để đọc nội dung repository
+  # Nếu cần quyền khác, thêm vào đây (ví dụ: issues: write, pull-requests: write)
 jobs:
   dependency-scan:
     runs-on: ubuntu-latest
@@ -10,13 +13,13 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v4
       - name: Set up environment
-        uses: actions/setup-node@v3 # Thay bằng môi trường phù hợp (Python, Java, v.v.)
+        uses: actions/setup-node@v3
         with:
           node-version: '16'
       - name: Install dependencies
-        run: yarn install # Thay bằng lệnh cài dependency của bạn (pip install, mvn install, v.v.)
+        run: npm install
       - name: Run dependency vulnerability scan
-        run: yarn audit --json | tee audit-report.json # Thay bằng công cụ quét phù hợp (npm audit, pip-audit, v.v.)
+        run: npm audit --json | tee audit-report.json
       - name: Upload scan results
         uses: actions/upload-artifact@v3
         with:
