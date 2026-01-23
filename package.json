@@ -39,7 +39,7 @@
     "husky": "9.1.7",
     "i18next": "24.2.3",
     "lint-staged": "15.5.0",
-    "lodash": "4.17.21",
+    "lodash": "4.17.23",
     "lucide-react": "0.475.0",
     "next": "15.2.4",
     "next-i18next": "15.4.2",
